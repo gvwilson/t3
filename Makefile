@@ -1,81 +1,80 @@
-LANGUAGE=en
+.PHONY: commands site serve check bib clean pdf
 
-.PHONY : all check clean commands html pages pdf spell words
+BIB=bibliography/references.bib
+BIN=mccole
+DOCS=docs
+LUA=pandoc lua
+LINKS=mccole/links.md
+GLOSSARY=glossary/index.qmd
+MD_SRC=$(wildcard *.qmd) $(wildcard */*.qmd)
+QUARTO=quarto
+SLIDES_SRC=$(wildcard slides.qmd) $(wildcard */slides.qmd)
+SLIDES_DST=$(patsubst %.qmd,${DOCS}/%.html,${SLIDES_SRC})
+SLIDES_FLAGS=\
+  -f markdown \
+  -t revealjs \
+  -s \
+  -M suppress-bibliography=true \
+  -V theme=simple \
+  -V slideNumber=true \
+  --citeproc \
+  --bibliography=${BIB} \
+  --csl=mccole/slides.csl \
+  --css=mccole/slides.css
 
-# Settings
-OUTPUT=../docs/${LANGUAGE}
-TEX=$(filter-out temp.tex,$(wildcard *.tex))
-BIB=$(wildcard *.bib)
-FIGURES_SRC=$(wildcard figures/*)
-FIGURES_DST=$(patsubst %,${OUTPUT}/%,${FIGURES_SRC})
+## commands: show available commands (*)
+commands:
+	@grep -h -E '^##' ${MAKEFILE_LIST} \
+	| sed -e 's/## //g' \
+	| column -t -s ':'
 
-# Commands.
-LATEX=pdflatex --shell-escape --recorder
-PANDOC=pandoc \
-  --standalone \
-  --css=../static/bootstrap.min.css \
-  --css=../static/tango.css \
-  --css=../static/book.css \
-  --toc \
-  --toc-depth=2 \
-  --csl=../tex/chicago.csl
+## site: render HTML with Quarto
+site:
+	${QUARTO} render --to html
+	touch ${DOCS}/.nojekyll
 
-# Controls
-all : commands
+## pdf: render PDF with Quarto
+pdf:
+	mkdir -p pdf
+	${QUARTO} render --to pdf --output-dir=pdf
 
-## commands : show all commands.
-commands :
-	@grep -h -E '^##' ${MAKEFILE_LIST} | sed -e 's/## //g' | column -t -s ':'
+## serve: preview the site locally
+serve:
+	${QUARTO} preview
 
-## html : re-make HTML.
-html: tex.html bib.html ../bin/post-pandoc.py
-	@mkdir -p ${OUTPUT}
-	../bin/post-pandoc.py tex.html bib.html > ${OUTPUT}/index.html
+## publish: publish the site
+publish:
+	${LUA} ${BIN}/publish.lua docs ${OUT} ${EXTRA}
 
-tex.html: temp.tex template.html
-	${PANDOC} --template=template.html --bibliography=book.bib --output=tex.html temp.tex
+## slides: rebuild just the slides
+slides: ${SLIDES_DST}
 
-bib.html: book.bib ../bin/bib2html.py
-	../bin/bib2html.py < book.bib > bib.html
+${DOCS}/%.html: %.qmd
+	mkdir -p $(@D)
+	pandoc $< ${SLIDES_FLAGS} -o $@
+	cp mccole/slides.css ${DOCS}/mccole/slides.css
+	sed -i '' '/simple\.css/d' $@
 
-temp.tex: ${TEX} ${FIGURES_DST} ../bin/pre-pandoc.py
-	../bin/pre-pandoc.py < book.tex > temp.tex
+## check: check structure, spelling, etc.
+check: check-bib check-links check-glossary check-typos
 
-## pdf : Re-make PDF.
-pdf : ${TEX} ${BIB}
-	${LATEX} book
-	biber book
-	makeindex book
-	${LATEX} book
-	${LATEX} book
-	${LATEX} book
+## check-bib: check bibliography
+check-bib:
+	${LUA} ${BIN}/check-bib.lua ${BIB} ${MD_SRC}
 
-# Copy figures.
-${OUTPUT}/figures/% : figures/%
-	@mkdir -p ${OUTPUT}/figures
-	@cp $< $@
+## check-links: check Markdown links
+check-links:
+	${LUA} ${BIN}/check-links.lua ${LINKS} ${MD_SRC}
 
-## check : check internal consistency.
-check :
-	@../bin/check.py -b book.bib -f figures ${TEX}
+## check-glossary: check glossary references
+check-glossary:
+	${LUA} ${BIN}/check-glossary.lua ${GLOSSARY} ${MD_SRC}
 
-## spell : check spelling.
-spell :
-	@-cat ${TEX} | aspell -t list | sort | uniq | diff -y --suppress-common-lines - wordlist.txt
+## check-typos: check spelling
+check-typos:
+	typos -c mccole/typos.toml ${MD_SRC}
 
-## pages : pages per chapter.
-pages : ${PDF}
-	@../bin/pages.py book.log book.toc
-
-## words : count words.
-words :
-	@../bin/texcount.pl -brief ${TEX} | sed -e 's/\+.*://g' -e 's/+.* Total//g' | sort -n -r
-
-## clean : Clean things up.
-clean :
-	@rm -f book.pdf
-	@rm -f *.aux *.bak *.bbl *.bcf *.blg *.dvi *.fls *.idx *.ilg *.ind *.lof *.log *.lot *.out *.pyg *.run.xml *.tmp *.toc *.xref
-	@rm -f tex.html bib.html temp.tex
-	@find . -name '*~' -delete
-	@find . -name '_minted-*' -prune -exec rm -r "{}" \;
-
+## clean: remove generated and cache files
+clean:
+	rm -rf .quarto _book
+	find . -type f -name '*~' -delete

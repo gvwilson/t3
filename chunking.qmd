@@ -1,0 +1,5 @@
+# Chunking Exercise Solution {#sec-chunking}
+
+See the last exercise in @sec-memory for the unchunked representation of these symbols.
+
+![Chunked representation](figures/chunking-chunked.svg){#fig-chunking-chunked}

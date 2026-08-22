@@ -22,6 +22,7 @@
 *.xref
 *~
 .DS_Store
+.codewhale
 .coverage
 .jekyll-metadata
 .pytest_cache
@@ -35,3 +36,6 @@ tex.html
 temp.html
 temp.tex
 tex/*/all.tex
+
+/.quarto/
+**/*.quarto_ipynb
