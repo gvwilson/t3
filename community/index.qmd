@@ -23,7 +23,7 @@ This isn't surprising given what we know about the importance of motivation for 
 everyone does worse if they believe the system is unpredictable, unfair, or indifferent.
 :::
 
-A framework for thinking about teaching communities is {{<g situated-learning "situated learning">}},
+A framework for thinking about teaching communities is situated learning,
 which focuses on how {{<g legitimate-peripheral-participation "legitimate peripheral participation">}}
 leads to people becoming members of
 a {{<g community-of-practice "community of practice">}} [@Weng2015].

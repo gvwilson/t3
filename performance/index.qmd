@@ -29,7 +29,7 @@ while the learners follow along,
 typing it in and running it as they go.
 Live coding works better than slides for several reasons:
 
--   It enables {{<g active-teaching "active teaching">}}
+-   It enables active teaching
     by allowing teachers to follow their learners' interests and questions in the moment.
     A slide deck is like a railway track:
     it may be a smooth ride,

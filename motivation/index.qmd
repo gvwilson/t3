@@ -273,7 +273,7 @@ and assuming that failure is an option is a great way to demotivate them.
 
 ### Impostor Syndrome {.unnumbered}
 
-{{<g impostor-syndrome "Impostor syndrome">}}{{<i "impostor syndrome">}}
+Impostor syndrome
 is the belief that your achievements are lucky flukes
 and an accompanying fear that someone will finally figure this out.
 It is common among high achievers who undertake publicly visible work,

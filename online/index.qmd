@@ -51,7 +51,7 @@ is the {{<g mooc "Massive Open Online Course">}}, or MOOC.
 The term was invented by David Cormier in 2008{{<i "Cormier, David">}}
 to describe a course organized by George Siemens{{<i "Siemens, George">}}
 and Stephen Downes.{{<i "Downes, Stephen">}}
-That course was based on a {{<g connectivism "connectivist">}}{{<i "connectivism">}} view of learning,
+That course was based on a connectivist view of learning,
 which holds that knowledge is distributed
 and that learning is the process of finding, creating, and pruning connections.
 
