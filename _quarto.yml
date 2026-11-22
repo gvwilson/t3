@@ -1,55 +1,36 @@
-project:
-  type: book
-  output-dir: docs
+metadata-files:
+  - mccole/mccole.yml
 
 book:
   title: "Teaching Tech Together"
   repo-url: "https://github.com/gvwilson/t3"
   repo-actions: [edit, source, issue]
+  cover-image: images/t3-cover.jpg
+  cover-image-alt: "Software Design by Example: book cover"
   chapters:
     - index.qmd
-    - intro.qmd
-    - models.qmd
-    - memory.qmd
-    - architecture.qmd
-    - individual.qmd
-    - process.qmd
-    - pck.qmd
-    - performance.qmd
-    - classroom.qmd
-    - motivation.qmd
-    - online.qmd
-    - exercises.qmd
-    - community.qmd
-    - outreach.qmd
-    - finale.qmd
+    - intro/index.qmd
+    - models/index.qmd
+    - memory/index.qmd
+    - architecture/index.qmd
+    - individual/index.qmd
+    - process/index.qmd
+    - pck/index.qmd
+    - performance/index.qmd
+    - classroom/index.qmd
+    - motivation/index.qmd
+    - online/index.qmd
+    - exercises/index.qmd
+    - community/index.qmd
+    - outreach/index.qmd
+    - finale/index.qmd
   appendices:
-    - license.qmd
-    - conduct.qmd
-    - joining.qmd
-    - glossary.qmd
-    - meetings.qmd
-    - checklists.qmd
-    - conceptmaps.qmd
-    - chunking.qmd
-    - bibliography.qmd
-
-bibliography: book.bib
-csl: mccole/book.csl
-
-filters:
-  - mccole/links.lua
-
-shortcodes:
-  - mccole/glossary.lua
-  - mccole/inc-noh1.lua
-  - mccole/index.lua
-
-format:
-  html:
-    css: mccole/book.css
-    link-citations: true
-    theme: cosmo
-    toc: true
-  pdf:
-    documentclass: mccole/krantz
+    - license/index.qmd
+    - conduct/index.qmd
+    - joining/index.qmd
+    - glossary/index.qmd
+    - meetings/index.qmd
+    - checklists/index.qmd
+    - conceptmaps/index.qmd
+    - chunking/index.qmd
+    - bibliography/index.qmd

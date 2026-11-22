@@ -1,0 +1,11 @@
+[carpentries]: https://carpentries.org/
+[email]: mailto:gvwilson@third-bit.com
+[gvw]: https://third-bit.com/about/
+[psf]: https://www.python.org/psf-landing/
+[rainbow]: https://rainbowrailroad.org/
+[red-door]: https://www.reddoorshelter.ca/
+[rstudio-ed]: https://education.rstudio.com/trainers
+[sigsoft]: https://www.sigsoft.org/
+[slides]:  https://drive.google.com/drive/folders/1LVcmp48Ym0c6pA9GOT6TrCa47RU1ugaV
+[t3-book]: https://www.taylorfrancis.com/books/mono/10.1201/9780429330704/teaching-tech-together-greg-wilson
+[video]: https://player.vimeo.com/video/885652506

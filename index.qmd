@@ -1,7 +1,7 @@
 # Overview {.unnumbered}
 
 This introduction to evidence-based teaching practices
-was [published][t3-book] by Taylor & Francis in 2019,
+was [published](@t3-book) by Taylor & Francis in 2019,
 and is presently being revised and updated.
 
 The one-day workshop based on the book
@@ -21,17 +21,17 @@ Topics include:
 
 The workshop has been taught over 50 times since 2017
 for companies, public libraries, and open source organizations,
-and the materials are [available online][slides] under an open license.
+and the materials are [available online](@slides) under an open license.
 If you would like to know more,
-please check out out [this one-minute video][video]
-or email [gvwilson@third-bit.com][email].
+please check out out [this one-minute video](@video)
+or [email the author](@email).
 
-[Dr. Greg Wilson][gvw] is a programmer, author, and educator based in Toronto.
-He co-founded and and was the first Executive Director of [Software Carpentry][carpentries],
+[Dr. Greg Wilson](@gvw) is a programmer, author, and educator based in Toronto.
+He co-founded and and was the first Executive Director of [Software Carpentry](@carpentries),
 which has taught basic software skills to tens of thousands of researchers in over 65 countries.
 Greg is the author of several books,
-a member of the [Python Software Foundation][psf],
-and a recipient of [ACM SIGSOFT][sigsoft]'s Influential Educator of the Year award.
+a member of the [Python Software Foundation](@psf),
+and a recipient of [ACM SIGSOFT](@sigsoft)'s Influential Educator of the Year award.
 
 ## FAQ
 
@@ -56,9 +56,9 @@ How large can a workshop be?
 How much does this cost?
 :   The cost depends on the nature of the organization
     and on whether the host is willing to make a donation to a charity
-    such as [Rainbow Railroad][rainbow] or the [Red Door Family Shelter][red-door]
+    such as [Rainbow Railroad](@rainbow) or the [Red Door Family Shelter](@red-door)
     in lieu of part of the fee.
-    Please [get in touch][email] to discuss specifics.
+    Please [get in touch](@email) to discuss specifics.
 
 Who is the intended audience?
 :   Participants at past workshops have included programmers,
@@ -78,17 +78,5 @@ Who can take part?
 Where does the material come from?
 :   The workshop is a shortened and updated version of
     material originally developed for
-    [the Carpentries][carpentries]' instructor training program
-    and RStudio's [instructor certification program][rstudio-ed].
-
-[carpentries]: https://carpentries.org/
-[email]: mailto:gvwilson@third-bit.com
-[gvw]: https://third-bit.com/about/
-[psf]: https://www.python.org/psf-landing/
-[rainbow]: https://rainbowrailroad.org/
-[red-door]: https://www.reddoorshelter.ca/
-[rstudio-ed]: https://education.rstudio.com/trainers
-[sigsoft]: https://www.sigsoft.org/
-[slides]:  https://drive.google.com/drive/folders/1LVcmp48Ym0c6pA9GOT6TrCa47RU1ugaV
-[t3-book]: https://www.taylorfrancis.com/books/mono/10.1201/9780429330704/teaching-tech-together-greg-wilson
-[video]: https://player.vimeo.com/video/885652506
+    [the Carpentries](@carpentries)' instructor training program
+    and RStudio's [instructor certification program](@rstudio-ed).

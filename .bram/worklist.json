@@ -1,0 +1,15 @@
+{
+  "description": "",
+  "items": [
+    {
+      "begunAtMs": 1795389174166,
+      "files": [
+        "index.qmd",
+        "config/links.md"
+      ],
+      "id": "links-mccole-convention",
+      "status": "proposed"
+    }
+  ],
+  "version": 2
+}

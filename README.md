@@ -1,1 +1,1 @@
-# Teaching Tech Together (revised edition)
+# Teaching Tech Together
