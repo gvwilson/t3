@@ -1,362 +1,39 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head><meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Individual Learning</title>
+  <link rel="stylesheet" href="../mccole/mccole-book.css">
 
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.11.9">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-
-<title>5&nbsp; Individual Learning – Teaching Tech Together</title>
-<style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: 1.5em;}
-div.column{flex: auto;}
-@media screen {
-div.columns{gap: min(4vw, 1.5em);}
-div.column{overflow-x: auto;}
-}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-ul.task-list{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
-  vertical-align: middle;
-}
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
-
-
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../process/index.html" rel="next">
-<link href="../architecture/index.html" rel="prev">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-01a495efc5497ac6e3f5457e7ed18e65.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
-  "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
-  }
-}</script>
-
-
-<link rel="stylesheet" href="../mccole/book.css">
 </head>
-
-<body class="nav-sidebar floating quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
-
-<div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" aria-label="Toolbar">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="Breadcrumbs"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../individual/index.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Individual Learning</span></a></li></ol></nav>
-        <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
+<body>
+<header class="topbar">
+  <nav class="topnav">
+    <a class="topnav-item" href="../index.html">Home</a>
+    <div class="topnav-dropdown">
+      <span class="topnav-item">Chapters</span>
+      <div class="topnav-menu"><ul class="topnav-list"><li><a href="../intro/index.html">Introduction</a></li><li><a href="../models/index.html">Mental Models and Formative Assessment</a></li><li><a href="../memory/index.html">Expertise and Memory</a></li><li><a href="../architecture/index.html">Cognitive Architecture</a></li><li><a href="../individual/index.html">Individual Learning</a></li><li><a href="../process/index.html">A Lesson Design Process</a></li><li><a href="../pck/index.html">Pedagogical Content Knowledge</a></li><li><a href="../performance/index.html">Teaching as a Performance Art</a></li><li><a href="../classroom/index.html">In the Classroom</a></li><li><a href="../motivation/index.html">Motivation and Demotivation</a></li><li><a href="../online/index.html">Teaching Online</a></li><li><a href="../exercises/index.html">Exercise Types</a></li><li><a href="../community/index.html">Building a Community of Practice</a></li><li><a href="../outreach/index.html">Outreach</a></li><li><a href="../finale/index.html">Why I Teach</a></li></ul></div>
+    </div>
+    <div class="topnav-dropdown">
+      <span class="topnav-item">Appendices</span>
+      <div class="topnav-menu"><ul class="topnav-list"><li><a href="../license/index.html">License</a></li><li><a href="../conduct/index.html">Code of Conduct</a></li><li><a href="../joining/index.html">Joining Our Community</a></li><li><a href="../glossary/index.html">Glossary</a></li><li><a href="../meetings/index.html">Meetings, Meetings, Meetings</a></li><li><a href="../checklists/index.html">Checklists and Templates</a></li><li><a href="../conceptmaps/index.html">Example Concept Maps</a></li><li><a href="../chunking/index.html">Chunking Exercise Solution</a></li><li><a href="../bibliography/index.html">Bibliography</a></li></ul></div>
+    </div>
+    <div class="topnav-dropdown">
+      <span class="topnav-item">Contents</span>
+      <div class="topnav-menu"><ul>
+<li><a href="#sec-individual-strategies" id="toc-sec-individual-strategies"><span class="header-section-number">5.1</span> Six Strategies</a></li>
+<li><a href="#sec-individual-time" id="toc-sec-individual-time"><span class="header-section-number">5.2</span> Time Management</a></li>
+<li><a href="#sec-individual-peer" id="toc-sec-individual-peer"><span class="header-section-number">5.3</span> Peer Assessment</a></li>
+<li><a href="#sec-individual-exercises" id="toc-sec-individual-exercises"><span class="header-section-number">5.4</span> Exercises</a></li>
+<li><a href="#review" id="toc-review">Review</a></li>
+</ul></div>
     </div>
   </nav>
 </header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
-<!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto" aria-label="Site">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="../">Teaching Tech Together</a> 
-        <div class="sidebar-tools-main">
-    <a href="https://github.com/gvwilson/t3" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
-</div>
-    </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Overview</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../intro/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../models/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Mental Models and Formative Assessment</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../memory/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Expertise and Memory</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../architecture/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Cognitive Architecture</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../individual/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Individual Learning</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../process/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">A Lesson Design Process</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../pck/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Pedagogical Content Knowledge</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../performance/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Teaching as a Performance Art</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../classroom/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">In the Classroom</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../motivation/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Motivation and Demotivation</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../online/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Teaching Online</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../exercises/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Exercise Types</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../community/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Building a Community of Practice</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../outreach/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Outreach</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../finale/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Why I Teach</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-controls="quarto-sidebar-section-1" aria-expanded="true">
- <span class="menu-text" id="quarto-sidebar-section-1-label">Appendices</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
-      </div>
-      <ul id="quarto-sidebar-section-1" aria-labelledby="quarto-sidebar-section-1-label" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../license/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">License</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../conduct/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Code of Conduct</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../joining/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Joining Our Community</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../glossary/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../meetings/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Meetings, Meetings, Meetings</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../checklists/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Checklists and Templates</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../conceptmaps/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">G</span>&nbsp; <span class="chapter-title">Example Concept Maps</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chunking/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">H</span>&nbsp; <span class="chapter-title">Chunking Exercise Solution</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../bibliography/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">I</span>&nbsp; <span class="chapter-title">Bibliography</span></span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#sec-individual-strategies" id="toc-sec-individual-strategies" class="nav-link active" data-scroll-target="#sec-individual-strategies"><span class="header-section-number">5.1</span> Six Strategies</a>
-  <ul class="collapse">
-  <li><a href="#spaced-practice" id="toc-spaced-practice" class="nav-link" data-scroll-target="#spaced-practice">Spaced Practice</a></li>
-  <li><a href="#retrieval-practice" id="toc-retrieval-practice" class="nav-link" data-scroll-target="#retrieval-practice">Retrieval Practice</a></li>
-  <li><a href="#interleaving" id="toc-interleaving" class="nav-link" data-scroll-target="#interleaving">Interleaving</a></li>
-  <li><a href="#elaboration" id="toc-elaboration" class="nav-link" data-scroll-target="#elaboration">Elaboration</a></li>
-  <li><a href="#concrete-examples" id="toc-concrete-examples" class="nav-link" data-scroll-target="#concrete-examples">Concrete Examples</a></li>
-  <li><a href="#dual-coding" id="toc-dual-coding" class="nav-link" data-scroll-target="#dual-coding">Dual Coding</a></li>
-  </ul></li>
-  <li><a href="#sec-individual-time" id="toc-sec-individual-time" class="nav-link" data-scroll-target="#sec-individual-time"><span class="header-section-number">5.2</span> Time Management</a></li>
-  <li><a href="#sec-individual-peer" id="toc-sec-individual-peer" class="nav-link" data-scroll-target="#sec-individual-peer"><span class="header-section-number">5.3</span> Peer Assessment</a></li>
-  <li><a href="#sec-individual-exercises" id="toc-sec-individual-exercises" class="nav-link" data-scroll-target="#sec-individual-exercises"><span class="header-section-number">5.4</span> Exercises</a>
-  <ul class="collapse">
-  <li><a href="#learning-strategies-individual20-min" id="toc-learning-strategies-individual20-min" class="nav-link" data-scroll-target="#learning-strategies-individual20-min"><span class="header-section-number">5.4.1</span> Learning Strategies (individual/20 min)</a></li>
-  <li><a href="#connecting-ideas-pairs5-min" id="toc-connecting-ideas-pairs5-min" class="nav-link" data-scroll-target="#connecting-ideas-pairs5-min"><span class="header-section-number">5.4.2</span> Connecting Ideas (pairs/5 min)</a></li>
-  <li><a href="#convergent-evolution-pairs15-min" id="toc-convergent-evolution-pairs15-min" class="nav-link" data-scroll-target="#convergent-evolution-pairs15-min"><span class="header-section-number">5.4.3</span> Convergent Evolution (pairs/15 min)</a></li>
-  <li><a href="#changing-minds-pairs10-min" id="toc-changing-minds-pairs10-min" class="nav-link" data-scroll-target="#changing-minds-pairs10-min"><span class="header-section-number">5.4.4</span> Changing Minds (pairs/10 min)</a></li>
-  <li><a href="#flash-cards-individual15-min" id="toc-flash-cards-individual15-min" class="nav-link" data-scroll-target="#flash-cards-individual15-min"><span class="header-section-number">5.4.5</span> Flash Cards (individual/15 min)</a></li>
-  <li><a href="#using-adept-whole-class15-min" id="toc-using-adept-whole-class15-min" class="nav-link" data-scroll-target="#using-adept-whole-class15-min"><span class="header-section-number">5.4.6</span> Using ADEPT (whole class/15 min)</a></li>
-  <li><a href="#the-cost-of-multi-tasking-pairs10-min" id="toc-the-cost-of-multi-tasking-pairs10-min" class="nav-link" data-scroll-target="#the-cost-of-multi-tasking-pairs10-min"><span class="header-section-number">5.4.7</span> The Cost of Multi-Tasking (pairs/10 min)</a></li>
-  <li><a href="#myths-in-computing-education-whole-class20-min" id="toc-myths-in-computing-education-whole-class20-min" class="nav-link" data-scroll-target="#myths-in-computing-education-whole-class20-min"><span class="header-section-number">5.4.8</span> Myths in Computing Education (whole class/20 min)</a></li>
-  <li><a href="#calibrated-peer-review-pairs20-min" id="toc-calibrated-peer-review-pairs20-min" class="nav-link" data-scroll-target="#calibrated-peer-review-pairs20-min"><span class="header-section-number">5.4.9</span> Calibrated Peer Review (pairs/20 min)</a></li>
-  </ul></li>
-  <li><a href="#review" id="toc-review" class="nav-link" data-scroll-target="#review">Review</a></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/gvwilson/t3/edit/main/individual/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/gvwilson/t3/blob/main/individual/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/gvwilson/t3/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
-    </div>
-<!-- main -->
-<main class="content" id="quarto-document-content" tabindex="-1">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title"><span id="sec-individual" class="quarto-section-identifier"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Individual Learning</span></span></h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
+<main class="content"><header id="title-block-header" class="quarto-title-block"></header>
+<h1 class="title">Individual Learning</h1>
 <p>Previous chapters have explored what teachers can do to help learners. This chapter looks at what learners can do for themselves by changing their study strategies and getting enough rest.</p>
 <p>The most effective strategy is to switch from <a href="../glossary/index.html#passive-learning">passive learning</a> to <a href="../glossary/index.html#active-learning">active learning</a> <span class="citation" data-cites="Hpl2018">(<a href="../bibliography/index.html#ref-Hpl2018" role="doc-biblioref">National Academies of Sciences, Engineering, and Medicine 2018</a>)</span>, which significantly improves performance and reduces failure rates <span class="citation" data-cites="Free2014">(<a href="../bibliography/index.html#ref-Free2014" role="doc-biblioref">Freeman et al. 2014</a>)</span>:</p>
-<table class="caption-top table">
+<table class="caption-top">
 <thead>
 <tr class="header">
 <th>Passive</th>
@@ -382,83 +59,54 @@ div.csl-indent {
 <p>The other key to getting more out of learning is <a href="../glossary/index.html#metacognition">metacognition</a>, or thinking about one’s own thinking. Just as good musicians listen to their own playing and good teachers reflect on their teaching (<a href="../performance/index.html" class="quarto-xref"><span>Chapter 8</span></a>), learners will learn better and faster if they make plans, set goals, and monitor their progress. It’s difficult for learners to master these skills in the abstract—just telling them to make plans doesn’t have any effect—but lessons can be designed to encourage good study practices, and drawing attention to these practices in class helps learners realize that learning is a skill they can improve like any other <span class="citation" data-cites="McGu2015">Miyatsu et al. (<a href="../bibliography/index.html#ref-Miya2018" role="doc-biblioref">2018</a>)</span>.</p>
 <p>The big prize is <a href="../glossary/index.html#transfer-of-learning">transfer of learning</a>, which occurs when one thing we have learned helps us learn other things more quickly. Researchers distinguish between <a href="../glossary/index.html#near-transfer">near transfer</a>transfer of learning!near transfer, which occurs between similar or related areas like fractions and decimals in mathematics, and <a href="../glossary/index.html#far-transfer">far transfer</a>transfer of learning!far transfer, which occurs between dissimilar domains—for example, the idea that learning to play chess will help mathematical reasoning or vice versa.</p>
 <p>Near transfer undoubtedly occurs—no kind of learning beyond simple memorization could occur if it didn’t—and teachers leverage it all the time by giving learners exercises that are similar to material that has just been presented in a lesson. However, <span class="citation" data-cites="Sala2017">(<a href="../bibliography/index.html#ref-Sala2017" role="doc-biblioref">Sala and Gobet 2017</a>)</span> analyzed many studies of far transfer and concluded that:</p>
-<blockquote class="blockquote">
+<blockquote>
 <p>…the results show small to moderate effects. However, the effect sizes are inversely related to the quality of the experimental design… We conclude that far transfer of learning rarely occurs.</p>
 </blockquote>
 <p>When far transfer does occur, it seems to happen only once a subject has been mastered <span class="citation" data-cites="Gick1987">(<a href="../bibliography/index.html#ref-Gick1987" role="doc-biblioref">Gick and Holyoak 1987</a>)</span>. In practice, this means that learning to program won’t help you play chess and vice versa.</p>
-<section id="sec-individual-strategies" class="level2" data-number="5.1">
-<h2 data-number="5.1" class="anchored" data-anchor-id="sec-individual-strategies"><span class="header-section-number">5.1</span> Six Strategies</h2>
+<h2 data-number="5.1" id="sec-individual-strategies"><span class="header-section-number">5.1</span> Six Strategies</h2>
 <p>Psychologists study learning in a wide variety of ways, but have reached similar conclusions about what actually works <span class="citation" data-cites="Mark2018">(<a href="../bibliography/index.html#ref-Mark2018" role="doc-biblioref">Markovits and Weinstein 2018</a>)</span>. The <a href="http://www.learningscientists.org/">Learning Scientists</a> have catalogued six of these strategies and summarized them in <a href="http://www.learningscientists.org/downloadable-materials">a set of downloadable posters</a>. Teaching these strategies to learners, and mentioning them by name when you use them in class, can help them learn how to learn faster and better <span class="citation" data-cites="Wein2018a">Weinstein, Sumeracki, et al. (<a href="../bibliography/index.html#ref-Wein2018b" role="doc-biblioref">2018</a>)</span>.</p>
-<section id="spaced-practice" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="spaced-practice">Spaced Practice</h3>
+<h3 class="unnumbered" id="spaced-practice">Spaced Practice</h3>
 <p>spaced practice (learning strategy) learning strategy!spaced practice</p>
 <p>Ten hours of study spread out over five days is more effective than two five-hour days, and far better than one ten-hour day. You should therefore create a study schedule that spreads study activities over time: block off at least half an hour to study each topic each day rather than trying to cram everything in the night before an exam <span class="citation" data-cites="Kang2016">(<a href="../bibliography/index.html#ref-Kang2016" role="doc-biblioref">Kang 2016</a>)</span>.</p>
 <p>You should also review material after each class, but not immediately after—take at least a half-hour break. When reviewing, be sure to include at least a little bit of older material: for example, spend twenty minutes looking over notes from that day’s class and then five minutes each looking over material from the previous day and from a week before. Doing this also helps you catch any gaps or mistakes in previous sets of notes while there’s still time to correct them or ask questions: it’s painful to realize the night before the exam that you have no idea why you underlined “Demodulate!!” three times.</p>
 <p>When reviewing, make notes about things that you had forgotten: for example, make a flash card for each fact that you couldn’t remember or that you remembered incorrectly <span class="citation" data-cites="Matt2019">(<a href="../bibliography/index.html#ref-Matt2019" role="doc-biblioref">Matthes 2019</a>)</span>. This will help you focus the next round of study on things that most need attention.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>The Value of Lectures
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<div>
+<blockquote>
+<p><strong>The Value of Lectures</strong></p>
 <p>According to <span class="citation" data-cites="Mill2016a">(<a href="../bibliography/index.html#ref-Mill2016a" role="doc-biblioref">Miller 2016</a>)</span>, “The lectures that predominate in face-to-face courses are relatively ineffective ways to teach, but they probably contribute to spacing material over time, because they unfold in a set schedule over time. In contrast, depending on how the courses are set up, online students can sometimes avoid exposure to material altogether until an assignment is nigh.”</p>
+</blockquote>
 </div>
-</div>
-</section>
-<section id="retrieval-practice" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="retrieval-practice">Retrieval Practice</h3>
+<h3 class="unnumbered" id="retrieval-practice">Retrieval Practice</h3>
 <p>retrieval practice (learning strategy) learning strategy!retrieval practice</p>
 <p>The limiting factor for long-term memory is not retention (what is stored) but recall (what can be accessed). Recall of specific information improves with practice, so outcomes in real situations can be improved by taking practice tests or summarizing the details of a topic from memory and then checking what was and wasn’t remembered. For example, <span class="citation" data-cites="Karp2008">(<a href="../bibliography/index.html#ref-Karp2008" role="doc-biblioref">Karpicke and Roediger 2008</a>)</span> found that repeated testing improved recall of word lists from 35% to 80%.</p>
 <p>Recall is better when practice uses activities similar to those used in testing. For example, writing personal journal entries helps with multiple-choice quizzes, but less than doing practice quizzes <span class="citation" data-cites="Mill2016a">(<a href="../bibliography/index.html#ref-Mill2016a" role="doc-biblioref">Miller 2016</a>)</span>. This phenomenon is called <a href="../glossary/index.html#transfer-appropriate-processing">transfer-appropriate processing</a>.</p>
 <p>One way to exercise retrieval skills is to solve problems twice. The first time, do it entirely from memory without notes or discussion with peers. After grading your own work against a rubric supplied by the teacher, solve the problem again using whatever resources you want. The difference between the two shows you how well you were able to retrieve and apply knowledge.</p>
 <p>Another method (mentioned above) is to create flash cards. Physical cards have a question or other prompt on one side and the answer on the other, and many flash card apps are available for phones. If you are studying as part of a group, swapping flash cards with a partner helps you discover important ideas that you may have missed or misunderstood.</p>
 <p><a href="../glossary/index.html#read-cover-retrieve">Read-cover-retrieve</a>read-cover-retrieve is a quick alternative to flash cards. As you read something, cover up key terms or sections with small sticky notes. When you are done, go through it a second time and see how well you can guess what’s under each of those stickies. Whatever method you use, don’t just practice recalling facts and definitions: make sure you also check your understanding of big ideas and the connections between them. Sketching a concept map and then comparing it to your notes or to a previously-drawn concept map is a quick way to do this.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Hypercorrection
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<div>
+<blockquote>
+<p><strong>Hypercorrection</strong></p>
 <p>One powerful finding in learning research is the <a href="../glossary/index.html#hypercorrection">hypercorrection effect</a> <span class="citation" data-cites="Metc2016">(<a href="../bibliography/index.html#ref-Metc2016" role="doc-biblioref">Metcalfe 2016</a>)</span>. Most people don’t like to be told they’re wrong, so it would be reasonable to assume that the more confident someone is in the answer they’ve given on a test, the harder it is to change their mind if they were actually wrong. It turns out that the opposite is true: the more confident someone is that they were right, the more likely they are not to repeat the error if they are corrected.</p>
+</blockquote>
 </div>
-</div>
-</section>
-<section id="interleaving" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="interleaving">Interleaving</h3>
+<h3 class="unnumbered" id="interleaving">Interleaving</h3>
 <p>interleaving (learning strategy) learning strategy!interleaving</p>
 <p>One way you can space your practice is to interleave study of different topics: instead of mastering one subject, then a second and third, shuffle study sessions. Even better, switch up the order: A-B-C-B-A-C is better than A-B-C-A-B-C, which in turn is better than A-A-B-B-C-C <span class="citation" data-cites="Rohr2015">(<a href="../bibliography/index.html#ref-Rohr2015" role="doc-biblioref">Rohrer et al. 2015</a>)</span>. This works because interleaving fosters creation of more links between different topics, which in turn improves recall.</p>
 <p>How long you should spend on each item depends on the subject and how well you know it. Somewhere between 10 and 30 minutes is long enough for you to get into a state of flow (<a href="#sec-individual-time" class="quarto-xref"><span>Section 5.2</span></a>) but not for your mind to wander. Interleaving study will initially feel harder than focusing on one topic at a time, but that’s a sign that it’s working. If you are using flash cards or practice tests to gauge your progress, you should see improvement after only a couple of days.</p>
-</section>
-<section id="elaboration" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="elaboration">Elaboration</h3>
+<h3 class="unnumbered" id="elaboration">Elaboration</h3>
 <p>elaboration (learning strategy) learning strategy!elaboration</p>
 <p>Explaining things to yourself as you go through them helps you understand and remember them. One way to do this is to follow up each answer on a practice quiz with an explanation of why that answer is correct, or conversely with an explanation of why some other plausible answer isn’t. Another is to tell yourself how a new idea is similar to or different from one you have seen previously.</p>
 <p>Talking to yourself may seem like an odd way to study, but <span class="citation" data-cites="Biel1995">(<a href="../bibliography/index.html#ref-Biel1995" role="doc-biblioref">Bielaczyc et al. 1995</a>)</span> found that people trained in self-explanation outperformed those who hadn’t been trained. Similarly, <span class="citation" data-cites="Chi1989">(<a href="../bibliography/index.html#ref-Chi1989" role="doc-biblioref">Chi et al. 1989</a>)</span> found that some learners simply halt when they hit a step they don’t understand when trying to solve problems. Others pause and generate an explanation of what’s going on, and the latter group learns faster. An exercise to build this skill is to go through an example program line by line with a class, having a different person explain each line in turn and say why it is there and what it accomplishes.</p>
-</section>
-<section id="concrete-examples" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="concrete-examples">Concrete Examples</h3>
+<h3 class="unnumbered" id="concrete-examples">Concrete Examples</h3>
 <p>concrete examples (learning strategy) learning strategy!concrete examples</p>
 <p>One particularly useful form of elaboration is the use of concrete examples. Whenever you have a statement of a general principle, try to provide one or more examples of its use, or conversely take each particular problem and list the general principles it embodies. <span class="citation" data-cites="Raws2014">(<a href="../bibliography/index.html#ref-Raws2014" role="doc-biblioref">Rawson et al. 2014</a>)</span> found that interleaving examples and definitions like this made it more likely that learners would remember the latter correctly.</p>
 <p>One structured way to do this is the <a href="https://betterexplained.com/articles/adept-method/">ADEPT method</a>: ADEPT (lesson pattern) lesson pattern!ADEPT give an <strong>A</strong>nalogy, draw a <strong>D</strong>iagram, present an <strong>E</strong>xample, describe the idea in <strong>P</strong>lain language, and then give the <strong>T</strong>echnical details. Again, if you are studying with a partner or in a group, you can swap and check work: see if you agree that other people’s examples actually embody the principle being discussed or which principles are used in an example that they haven’t listed.</p>
 <p>Another useful technique is to teach by contrast, teach by contrast (lesson pattern) lesson pattern!teach by contrast i.e.&nbsp;to show learners what a solution is <em>not</em> or what kind of problem a technique <em>won’t</em> solve. For example, when showing children how to simplify fractions, it’s important to give them a few like 5/7 that can’t be simplified so that they don’t become frustrated looking for answers that don’t exist.</p>
-</section>
-<section id="dual-coding" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="dual-coding">Dual Coding</h3>
+<h3 class="unnumbered" id="dual-coding">Dual Coding</h3>
 <p>dual coding (learning strategy) learning strategy!dual coding</p>
 <p>The last of the six core strategies that the <a href="http://www.learningscientists.org/">Learning Scientists</a> describe is to present words and images together. As discussed in <a href="../architecture/index.html#sec-architecture-brain" class="quarto-xref"><span>Section 4.1</span></a>, different subsystems in our brains handle and store linguistic and visual information, so if complementary information is presented through both channels, they can reinforce one another. However, learning is less effective when the same information is presented simultaneously in two different channels, because then the brain has to expend effort to check the channels against each other <span class="citation" data-cites="Maye2003">(<a href="../bibliography/index.html#ref-Maye2003" role="doc-biblioref">Mayer and Moreno 2003</a>)</span>.</p>
 <p>One way to take advantage of dual coding is to draw or label timelines, maps, family trees, or whatever else seems appropriate to the material. (I am personally fond of pictures showing which functions call which others in a program.) Drawing a diagram <em>without</em> labels, then coming back later to label it, is excellent retrieval practice.</p>
-</section>
-</section>
-<section id="sec-individual-time" class="level2" data-number="5.2">
-<h2 data-number="5.2" class="anchored" data-anchor-id="sec-individual-time"><span class="header-section-number">5.2</span> Time Management</h2>
+<h2 data-number="5.2" id="sec-individual-time"><span class="header-section-number">5.2</span> Time Management</h2>
 <p>I used to brag about the hours I was working. Not in so many words, of course—I had <em>some</em> social skills—but I would show up for class around noon, unshaven and yawning, and casually mention to whoever would listen that I’d been up working until 6:00 a.m.</p>
 <p>Looking back, I can’t remember who I was trying to impress. What I remember instead is how much of the work I did in those all-nighters I threw away once I’d had some sleep, and how much damage the stuff I didn’t throw away did to my grades.</p>
 <p>My mistake was to confuse “working” with “being productive.” You can’t produce software (or anything else) without doing some work, but you can easily do lots of work without producing anything of value. Convincing people of this can be hard, especially when they’re in their teens or twenties, but it pays tremendous dividends.</p>
@@ -473,40 +121,26 @@ div.csl-indent {
 <p>“But—but—I have so many assignments to do!” you say. “And they’re all due at once! I <em>have</em> to work extra hours to get them all done!” No: people have to prioritize and focus in order to be productive, and in order to do that, they have to be taught how. One widely-used technique is to make a list of things that need to be done, sort them by priority, and then switch off email and other interruptions for 30–60 minutes and complete one of those tasks. If any task on a to-do list is more than an hour long, break it down into smaller pieces and prioritize those separately.</p>
 <p>The most important part of this is switching off interruptions. Despite what many people want to believe, human beings are not good at multi-tasking.multi-tasking What we can become good at is <a href="../glossary/index.html#automaticity">automaticity</a>, which is the ability to do something routine in the background while doing something else <span class="citation" data-cites="Mill2016a">(<a href="../bibliography/index.html#ref-Mill2016a" role="doc-biblioref">Miller 2016</a>)</span>. Most of us can talk while chopping onions, or drink coffee while reading; with practice, we can also take notes while listening, but we can’t study effectively, program, or do other mentally challenging tasks while paying attention to something else—we only think we can.</p>
 <p>The point of organizing and preparing is to get into the most productive mental state possible. Psychologists call it <a href="../glossary/index.html#flow">flow</a> <span class="citation" data-cites="Csik2008">(<a href="../bibliography/index.html#ref-Csik2008" role="doc-biblioref">Csikszentmihaly 2008</a>)</span>; athletes call it “being in the zone,” and musicians talk about losing themselves in what they’re playing. Whatever name you use, people produce much more per unit of time in this state than normal. The bad news is that it takes roughly 10 minutes to get back into a state of flow after an interruption, no matter how short the interruption was. This means that if you are interrupted half a dozen times per hour, you are <em>never</em> at your productive peak.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>How Did He Know?
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<div>
+<blockquote>
+<p><strong>How Did He Know?</strong></p>
 <p>In his 1961 short story “<a href="https://en.wikipedia.org/wiki/Harrison_Bergeron">Harrison Bergeron</a>,” Kurt Vonnegut described a future in which everyone is forced to be equal. Good-looking people have to wear masks, athletic people have to wear weights—and intelligent people are forced to carry around radios that interrupt their thoughts at random intervals. I sometimes wonder if—oh, hang on, my phone just—sorry, what were we talking about?</p>
+</blockquote>
 </div>
-</div>
-</section>
-<section id="sec-individual-peer" class="level2" data-number="5.3">
-<h2 data-number="5.3" class="anchored" data-anchor-id="sec-individual-peer"><span class="header-section-number">5.3</span> Peer Assessment</h2>
+<h2 data-number="5.3" id="sec-individual-peer"><span class="header-section-number">5.3</span> Peer Assessment</h2>
 <p>peer assessment</p>
 <p>Asking people on a team to rate their peers is a common practice in industry. <span class="citation" data-cites="Sond2012">(<a href="../bibliography/index.html#ref-Sond2012" role="doc-biblioref">Søndergaard and Mulder 2012</a>)</span> surveyed the literature on peer assessment, distinguishing between grading and reviewing. They found that peer assessment increased the amount, diversity, and timeliness of feedback, helped learners exercise higher-level thinking, encouraged reflective practice, and supported development of social skills. The concerns were predictable: validity and reliability, motivation and procrastination, trolls, collusion, and plagiarism.</p>
 <p>However, the evidence shows that these concerns aren’t significant in most classes. For example, <span class="citation" data-cites="Kauf2000">(<a href="../bibliography/index.html#ref-Kauf2000" role="doc-biblioref">Kaufman and Felder 2000</a>)</span> compared confidential peer ratings and grades on several axes for two undergraduate engineering courses and found that self-rating and peer ratings statistically agreed, that collusion wasn’t significant (i.e.&nbsp;people didn’t just give all their peers high grades), that learners didn’t inflate their self-ratings, and crucially, that ratings were not biased by gender or race.</p>
 <p>One way to implement peer assessment is <a href="../glossary/index.html#contributing-student">contributing student pedagogy</a>, in which learners produce artifacts to contribute to others’ learning. This can be developing a short lesson and sharing it with the class, adding to a question bank, or writing up notes from a particular lecture for in-class publication. For example, <span class="citation" data-cites="Fran2018">(<a href="../bibliography/index.html#ref-Fran2018" role="doc-biblioref">Frank-Bolton and Simha 2018</a>)</span> found that learners who made short videos to teach concepts to their peers had a significant increase in their own learning compared to those who only studied the material or viewed the videos. I have found that asking learners to share one bug and its fix with the class every day helps their analytic abilities and reduces impostor syndrome.</p>
 <p>Another approach is <a href="../glossary/index.html#calibrated-peer-review">calibrated peer review</a>, in which a learner reviews one or more examples using a rubric and compares their evaluation against the teacher’s review of the same work <span class="citation" data-cites="Kulk2013">(<a href="../bibliography/index.html#ref-Kulk2013" role="doc-biblioref">Kulkarni et al. 2013</a>)</span>. Once learners’ evaluations are close enough to the teacher’s, they start evaluating their peers’ actual work. If several peers’ assessments are combined, this can be as accurate as assessment by teachers <span class="citation" data-cites="Pare2008">(<a href="../bibliography/index.html#ref-Pare2008" role="doc-biblioref">Paré and Joordens 2008</a>)</span>.</p>
 <p>Like everything else, assessment is aided by rubrics. The evaluation form in <a href="../checklists/index.html#sec-checklists-teameval" class="quarto-xref"><span>Section F.2</span></a> shows a sample to get you started. To use it, rank yourself and each of your teammates, then calculate and compare scores. Large disparities usually indicate a need for a longer conversation.</p>
-</section>
-<section id="sec-individual-exercises" class="level2" data-number="5.4">
-<h2 data-number="5.4" class="anchored" data-anchor-id="sec-individual-exercises"><span class="header-section-number">5.4</span> Exercises</h2>
-<section id="learning-strategies-individual20-min" class="level3 exercise" data-number="5.4.1">
-<h3 class="exercise anchored" data-number="5.4.1" data-anchor-id="learning-strategies-individual20-min"><span class="header-section-number">5.4.1</span> Learning Strategies (individual/20 min)</h3>
+<h2 data-number="5.4" id="sec-individual-exercises"><span class="header-section-number">5.4</span> Exercises</h2>
+<h3 class="exercise" data-number="5.4.1" id="learning-strategies-individual20-min"><span class="header-section-number">5.4.1</span> Learning Strategies (individual/20 min)</h3>
 <ol type="1">
 <li><p>Which of the six learning strategies do you regularly use? Which ones do you not?</p></li>
 <li><p>Write down three general concepts that you want your learners to master and give two specific examples of each (concrete examples practice). For each of those concepts, work backward from one of your examples to explain how the concept explains it (elaboration).</p></li>
 </ol>
-</section>
-<section id="connecting-ideas-pairs5-min" class="level3 exercise" data-number="5.4.2">
-<h3 class="exercise anchored" data-number="5.4.2" data-anchor-id="connecting-ideas-pairs5-min"><span class="header-section-number">5.4.2</span> Connecting Ideas (pairs/5 min)</h3>
+<h3 class="exercise" data-number="5.4.2" id="connecting-ideas-pairs5-min"><span class="header-section-number">5.4.2</span> Connecting Ideas (pairs/5 min)</h3>
 <p>This exercise is an example of using elaboration to improve retention. Pick a partner have each person independently choose an idea, then announce your ideas and try to find a four-link chain that leads from one to the other. For example, if the two ideas are “Saskatchewan” and “statistics,” the links might be:</p>
 <ul>
 <li><p>Saskatchewan is a province of Canada;</p></li>
@@ -514,26 +148,16 @@ div.csl-indent {
 <li><p>countries have governments;</p></li>
 <li><p>governments use statistics to analyze public opinion.</p></li>
 </ul>
-</section>
-<section id="convergent-evolution-pairs15-min" class="level3 exercise" data-number="5.4.3">
-<h3 class="exercise anchored" data-number="5.4.3" data-anchor-id="convergent-evolution-pairs15-min"><span class="header-section-number">5.4.3</span> Convergent Evolution (pairs/15 min)</h3>
+<h3 class="exercise" data-number="5.4.3" id="convergent-evolution-pairs15-min"><span class="header-section-number">5.4.3</span> Convergent Evolution (pairs/15 min)</h3>
 <p>One practice that wasn’t covered above is <a href="../glossary/index.html#guided-notes">guided notes</a>, which are notes prepared by the teacher that cue learners to respond to key information in a lecture or discussion. The cues can be blank spaces where learners add information, asterisks next to terms learners should define, and so on.</p>
 <p>Create two to four guided note cards for a lesson you have recently taught or are going to teach. Swap cards with your partner: how easy is it to understand what is being asked for? How long would it take to fill in the prompts? How well does this work for programming examples?</p>
-</section>
-<section id="changing-minds-pairs10-min" class="level3 exercise" data-number="5.4.4">
-<h3 class="exercise anchored" data-number="5.4.4" data-anchor-id="changing-minds-pairs10-min"><span class="header-section-number">5.4.4</span> Changing Minds (pairs/10 min)</h3>
+<h3 class="exercise" data-number="5.4.4" id="changing-minds-pairs10-min"><span class="header-section-number">5.4.4</span> Changing Minds (pairs/10 min)</h3>
 <p><span class="citation" data-cites="Kirs2013">(<a href="../bibliography/index.html#ref-Kirs2013" role="doc-biblioref"><span class="nocase">Kirschner and van Merriënboer</span> 2013</a>)</span> argues that myths about digital natives, learning styles, and self-educators are all reflections of the mistaken belief that learners know what is best for them, and cautions that we may be in a downward spiral in which every attempt by education researchers to rebut these myths confirms their opponents’ belief that learning science is pseudo-science. Pick one thing you have learned about learning so far in this book that surprised you or contradicted something you previously believed and practice explaining it to a partner in 1–2 minutes. How convincing are you?</p>
-</section>
-<section id="flash-cards-individual15-min" class="level3 exercise" data-number="5.4.5">
-<h3 class="exercise anchored" data-number="5.4.5" data-anchor-id="flash-cards-individual15-min"><span class="header-section-number">5.4.5</span> Flash Cards (individual/15 min)</h3>
+<h3 class="exercise" data-number="5.4.5" id="flash-cards-individual15-min"><span class="header-section-number">5.4.5</span> Flash Cards (individual/15 min)</h3>
 <p>Use sticky notes or anything else you have at hand to make up half a dozen flash cards for a topic you have recently taught or learned. Trade with a partner and see how long it takes each of you to achieve 100% perfect recall. Set the cards aside when you are done, then come back after half an hour and see what your recall rate is.</p>
-</section>
-<section id="using-adept-whole-class15-min" class="level3 exercise" data-number="5.4.6">
-<h3 class="exercise anchored" data-number="5.4.6" data-anchor-id="using-adept-whole-class15-min"><span class="header-section-number">5.4.6</span> Using ADEPT (whole class/15 min)</h3>
+<h3 class="exercise" data-number="5.4.6" id="using-adept-whole-class15-min"><span class="header-section-number">5.4.6</span> Using ADEPT (whole class/15 min)</h3>
 <p>Pick something you have recently taught or been taught and outline a short lesson that uses the five-step ADEPT method to introduce it.</p>
-</section>
-<section id="the-cost-of-multi-tasking-pairs10-min" class="level3 exercise" data-number="5.4.7">
-<h3 class="exercise anchored" data-number="5.4.7" data-anchor-id="the-cost-of-multi-tasking-pairs10-min"><span class="header-section-number">5.4.7</span> The Cost of Multi-Tasking (pairs/10 min)</h3>
+<h3 class="exercise" data-number="5.4.7" id="the-cost-of-multi-tasking-pairs10-min"><span class="header-section-number">5.4.7</span> The Cost of Multi-Tasking (pairs/10 min)</h3>
 <p><a href="http://www.learningscientists.org/blog/2017/7/28-1">The Learning Scientists blog</a> describes a simple experiment you can do with only a stopwatch to demonstrate the mental cost of multi-tasking. Working in pairs, measure how long it takes each person to do each of these three tasks:</p>
 <ul>
 <li>Count from 1 to 26 twice.</li>
@@ -541,9 +165,7 @@ div.csl-indent {
 <li>Interleave the numbers and letters, i.e.&nbsp;say, “1, A, 2, B, …” and so on.</li>
 </ul>
 <p>Have each pair report their numbers. Without specific practice, the third task always takes significantly longer than either of the component tasks.</p>
-</section>
-<section id="myths-in-computing-education-whole-class20-min" class="level3 exercise" data-number="5.4.8">
-<h3 class="exercise anchored" data-number="5.4.8" data-anchor-id="myths-in-computing-education-whole-class20-min"><span class="header-section-number">5.4.8</span> Myths in Computing Education (whole class/20 min)</h3>
+<h3 class="exercise" data-number="5.4.8" id="myths-in-computing-education-whole-class20-min"><span class="header-section-number">5.4.8</span> Myths in Computing Education (whole class/20 min)</h3>
 <p><span class="citation" data-cites="Guzd2015b">(<a href="../bibliography/index.html#ref-Guzd2015b" role="doc-biblioref">Guzdial 2015</a>)</span> presents a list of the top ten mistaken beliefs about computing education, which includes:</p>
 <ol type="1">
 <li><p>The lack of women in Computer Science is just like all the other STEM fields.</p></li>
@@ -554,30 +176,24 @@ div.csl-indent {
 <li><p>Some people are just naturally better programmers than others.</p></li>
 </ol>
 <p>Have everyone vote +1 (agree), -1 (disagree), or 0 (not sure) for each point, then read the full explanations in <a href="https://cacm.acm.org/blogs/blog-cacm/189498-top-10-myths-about-teaching-computer-science/fulltext">the original article</a> and vote again. Which ones did people change their minds on? Which ones do they still believe are true, and why?</p>
-</section>
-<section id="calibrated-peer-review-pairs20-min" class="level3 exercise" data-number="5.4.9">
-<h3 class="exercise anchored" data-number="5.4.9" data-anchor-id="calibrated-peer-review-pairs20-min"><span class="header-section-number">5.4.9</span> Calibrated Peer Review (pairs/20 min)</h3>
+<h3 class="exercise" data-number="5.4.9" id="calibrated-peer-review-pairs20-min"><span class="header-section-number">5.4.9</span> Calibrated Peer Review (pairs/20 min)</h3>
 <ol type="1">
 <li><p>Create a 5–10 point rubric with entries like “good variable names,” “no redundant code,” and “properly-nested control flow” for grading the kind of programs you would like your learners to write.</p></li>
 <li><p>Choose or create a small program that contains 3–4 violations of these entries.</p></li>
 <li><p>Grade the program according to your rubric.</p></li>
 <li><p>Have a partner grade the same program with the same rubric. What do they accept that you did not? What do they critique that you did not?</p></li>
 </ol>
-</section>
-</section>
-<section id="review" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="review">Review</h2>
-<div id="fig-individual-concept-map" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
+<h2 class="unnumbered" id="review">Review</h2>
+<div id="fig-individual-concept-map" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
 <div aria-describedby="fig-individual-concept-map-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figures/conceptmap-active-learning.svg" class="img-fluid figure-img">
+<img src="figures/conceptmap-active-learning.svg">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-individual-concept-map-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;5.1: Concepts: Active learning
 </figcaption>
 </figure>
 </div>
-
 
 <div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
 <div id="ref-Biel1995" class="csl-entry" role="listitem">
@@ -665,500 +281,7 @@ Weinstein, Yana, Christopher R. Madan, and Megan A. Sumeracki. 2018. <span>“Te
 Weinstein, Yana, Megan Sumeracki, and Oliver Caviglioli. 2018. <em>Understanding How We Learn: A Visual Guide</em>. Routledge. ISBN 978-1138561724. <em>A short graphical summary of effective learning strategies.</em>
 </div>
 </div>
-</section>
-
-</main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
-  window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
-    const isCodeAnnotation = (el) => {
-      for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
-          return true;
-        }
-      }
-      return false;
-    }
-    const onCopySuccess = function(e) {
-      // button target
-      const button = e.trigger;
-      // don't keep focus
-      button.blur();
-      // flash "checked"
-      button.classList.add('code-copy-button-checked');
-      var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
-      let tooltip;
-      if (window.bootstrap) {
-        button.setAttribute("data-bs-toggle", "tooltip");
-        button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
-            customClass: "code-copy-button-tooltip",
-            offset: [0, -8]});
-        tooltip.show();    
-      }
-      setTimeout(function() {
-        if (tooltip) {
-          tooltip.hide();
-          button.removeAttribute("data-bs-title");
-          button.removeAttribute("data-bs-toggle");
-          button.removeAttribute("data-bs-placement");
-        }
-        button.setAttribute("title", currentTitle);
-        button.classList.remove('code-copy-button-checked');
-      }, 1000);
-      // clear code selection
-      e.clearSelection();
-    }
-    const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-      text: getTextToCopy
-    });
-    clipboard.on('success', onCopySuccess);
-    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-        text: getTextToCopy,
-        container: window.document.getElementById('quarto-embedded-source-code-modal')
-      });
-      clipboardModal.on('success', onCopySuccess);
-    }
-      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
-      var isInternal = (href) => {
-          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-      }
-      // Inspect non-navigation links and adorn them if external
-      window.quartoDecorateExternalLinks = function (root) {
-     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-      for (var i=0; i<links.length; i++) {
-        const link = links[i];
-        if (!isInternal(link.href)) {
-          // undo the damage that might have been done by quarto-nav.js in the case of
-          // links that we want to consider external
-          if (link.dataset.originalHref !== undefined) {
-            link.href = link.dataset.originalHref;
-          }
-          if (!link.classList.contains('no-external-icon')) {
-          }
-        }
-      }
-      };
-      window.quartoDecorateExternalLinks(window.document);
-    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
-    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
-    const hideOnEscAndFocusOut = {
-      name: 'hideOnEscAndFocusOut',
-      defaultValue: true,
-      fn(instance) {
-        const dismiss = () => {
-          // A show scheduled by the trigger delay would otherwise reopen it
-          instance.clearDelayTimeouts();
-          instance.hide();
-        };
-        const onKeyDown = (event) => {
-          if (event.key !== 'Escape') {
-            return;
-          }
-          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
-          // except an open reveal.js slide menu, which Esc should close too.
-          // The menu handles keys only when its keyboard option is on.
-          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
-            window.Reveal.getConfig().menu?.keyboard !== false;
-          if (!menuHandlesEsc) {
-            event.stopPropagation();
-          }
-          if (instance.popper.contains(window.document.activeElement)) {
-            // Disabled while refocusing so the focus trigger does not reopen it
-            instance.disable();
-            instance.reference.focus();
-            instance.enable();
-          }
-          dismiss();
-        };
-        const onFocusOut = (event) => {
-          const target = event.relatedTarget;
-          if (target && !instance.reference.contains(target) &&
-              !instance.popper.contains(target)) {
-            dismiss();
-          }
-        };
-        // On the trigger too: a click trigger (code-annotations: select) has no
-        // blur handling. Attached for the instance's lifetime so leaving the
-        // trigger also cancels a show still pending on the trigger delay.
-        instance.reference.addEventListener('focusout', onFocusOut);
-        return {
-          onShow() {
-            window.document.addEventListener('keydown', onKeyDown, true);
-            instance.popper.addEventListener('focusout', onFocusOut);
-          },
-          onHide() {
-            window.document.removeEventListener('keydown', onKeyDown, true);
-            instance.popper.removeEventListener('focusout', onFocusOut);
-          },
-          onDestroy() {
-            instance.reference.removeEventListener('focusout', onFocusOut);
-          },
-        };
-      },
-    };
-    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-      const config = {
-        allowHTML: true,
-        maxWidth: 500,
-        delay: 100,
-        arrow: false,
-        appendTo: function(el) {
-            return el.parentElement;
-        },
-        interactive: true,
-        interactiveBorder: 10,
-        theme: 'quarto',
-        placement: 'bottom-start',
-        plugins: [hideOnEscAndFocusOut],
-      };
-      if (contentFn) {
-        config.content = contentFn;
-      }
-      if (onTriggerFn) {
-        config.onTrigger = onTriggerFn;
-      }
-      if (onUntriggerFn) {
-        config.onUntrigger = onUntriggerFn;
-      }
-      window.tippy(el, config); 
-    }
-    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-    for (var i=0; i<noterefs.length; i++) {
-      const ref = noterefs[i];
-      tippyHover(ref, function() {
-        // use id or data attribute instead here
-        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-        try { href = new URL(href).hash; } catch {}
-        const id = href.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note) {
-          return note.innerHTML;
-        } else {
-          return "";
-        }
-      });
-    }
-    const xrefs = window.document.querySelectorAll('a.quarto-xref');
-    const processXRef = (id, note) => {
-      // Strip column container classes
-      const stripColumnClz = (el) => {
-        el.classList.remove("page-full", "page-columns");
-        if (el.children) {
-          for (const child of el.children) {
-            stripColumnClz(child);
-          }
-        }
-      }
-      stripColumnClz(note)
-      if (id === null || id.startsWith('sec-')) {
-        // Special case sections, only their first couple elements
-        const container = document.createElement("div");
-        if (note.children && note.children.length > 2) {
-          container.appendChild(note.children[0].cloneNode(true));
-          for (let i = 1; i < note.children.length; i++) {
-            const child = note.children[i];
-            if (child.tagName === "P" && child.innerText === "") {
-              continue;
-            } else {
-              container.appendChild(child.cloneNode(true));
-              break;
-            }
-          }
-          if (window.Quarto?.typesetMath) {
-            window.Quarto.typesetMath(container);
-          }
-          return container.innerHTML
-        } else {
-          if (window.Quarto?.typesetMath) {
-            window.Quarto.typesetMath(note);
-          }
-          return note.innerHTML;
-        }
-      } else {
-        // Remove any anchor links if they are present
-        const anchorLink = note.querySelector('a.anchorjs-link');
-        if (anchorLink) {
-          anchorLink.remove();
-        }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
-        if (note.classList.contains("callout")) {
-          return note.outerHTML;
-        } else {
-          return note.innerHTML;
-        }
-      }
-    }
-    for (var i=0; i<xrefs.length; i++) {
-      const xref = xrefs[i];
-      tippyHover(xref, undefined, function(instance) {
-        instance.disable();
-        let url = xref.getAttribute('href');
-        let hash = undefined; 
-        if (url.startsWith('#')) {
-          hash = url;
-        } else {
-          try { hash = new URL(url).hash; } catch {}
-        }
-        if (hash) {
-          const id = hash.replace(/^#\/?/, "");
-          const note = window.document.getElementById(id);
-          if (note !== null) {
-            try {
-              const html = processXRef(id, note.cloneNode(true));
-              instance.setContent(html);
-            } finally {
-              instance.enable();
-              instance.show();
-            }
-          } else {
-            // See if we can fetch this
-            fetch(url.split('#')[0])
-            .then(res => res.text())
-            .then(html => {
-              const parser = new DOMParser();
-              const htmlDoc = parser.parseFromString(html, "text/html");
-              const note = htmlDoc.getElementById(id);
-              if (note !== null) {
-                const html = processXRef(id, note);
-                instance.setContent(html);
-              } 
-            }).finally(() => {
-              instance.enable();
-              instance.show();
-            });
-          }
-        } else {
-          // See if we can fetch a full url (with no hash to target)
-          // This is a special case and we should probably do some content thinning / targeting
-          fetch(url)
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.querySelector('main.content');
-            if (note !== null) {
-              // This should only happen for chapter cross references
-              // (since there is no id in the URL)
-              // remove the first header
-              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-                note.children[0].remove();
-              }
-              const html = processXRef(null, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
-        }
-      }, function(instance) {
-      });
-    }
-        let selectedAnnoteEl;
-        const selectorForAnnotation = ( cell, annotation) => {
-          let cellAttr = 'data-code-cell="' + cell + '"';
-          let lineAttr = 'data-code-annotation="' +  annotation + '"';
-          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-          return selector;
-        }
-        const selectCodeLines = (annoteEl) => {
-          const doc = window.document;
-          const targetCell = annoteEl.getAttribute("data-target-cell");
-          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-          const lineIds = lines.map((line) => {
-            return targetCell + "-" + line;
-          })
-          // Each band is positioned against its own containing block, which is
-          // not the offsetParent of the lines, so place it from client rects.
-          const placeBand = (band, firstEl, lastEl, codeBlock) => {
-            const container = band.offsetParent;
-            if (container === null) {
-              return;
-            }
-            const containerRect = container.getBoundingClientRect();
-            // Reveal.js scales slides with a transform, so convert client
-            // pixels back to the CSS pixels of the container.
-            const scale = containerRect.height / container.offsetHeight || 1;
-            const firstRect = firstEl.getBoundingClientRect();
-            const lastRect = lastEl.getBoundingClientRect();
-            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
-            const height = (lastRect.bottom - firstRect.top) / scale;
-            band.style.top = top - 2 + "px";
-            band.style.height = height + 4 + "px";
-            if (codeBlock) {
-              // Without the copy button wrapper, the containing block is wider
-              // than the code block, so span the code block explicitly.
-              const blockRect = codeBlock.getBoundingClientRect();
-              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
-              band.style.width = blockRect.width / scale + "px";
-            }
-          };
-          if (lineIds.length > 0) {
-            const el = window.document.getElementById(lineIds[0]);
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const parent = el.parentElement.parentElement;
-            // cook up a div (if necessary) and position it
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            placeBand(gutterDiv, el, lastEl);
-            selectedAnnoteEl = annoteEl;
-          }
-        };
-        const unselectCodeLines = () => {
-          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-          elementsIds.forEach((elId) => {
-            const div = window.document.getElementById(elId);
-            if (div) {
-              div.remove();
-            }
-          });
-          selectedAnnoteEl = undefined;
-        };
-          // Handle positioning of the toggle
-      window.addEventListener(
-        "resize",
-        throttle(() => {
-          elRect = undefined;
-          if (selectedAnnoteEl) {
-            selectCodeLines(selectedAnnoteEl);
-          }
-        }, 10)
-      );
-      function throttle(fn, ms) {
-      let throttle = false;
-      let timer;
-        return (...args) => {
-          if(!throttle) { // first call gets through
-              fn.apply(this, args);
-              throttle = true;
-          } else { // all the others get throttled
-              if(timer) clearTimeout(timer); // cancel #2
-              timer = setTimeout(() => {
-                fn.apply(this, args);
-                timer = throttle = false;
-              }, ms);
-          }
-        };
-      }
-        // Attach click handler to the DT
-        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-        for (const annoteDlNode of annoteDls) {
-          annoteDlNode.addEventListener('click', (event) => {
-            const clickedEl = event.target;
-            if (clickedEl !== selectedAnnoteEl) {
-              unselectCodeLines();
-              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-              if (activeEl) {
-                activeEl.classList.remove('code-annotation-active');
-              }
-              selectCodeLines(clickedEl);
-              clickedEl.classList.add('code-annotation-active');
-            } else {
-              // Unselect the line
-              unselectCodeLines();
-              clickedEl.classList.remove('code-annotation-active');
-            }
-          });
-        }
-    const findCites = (el) => {
-      const parentEl = el.parentElement;
-      if (parentEl) {
-        const cites = parentEl.dataset.cites;
-        if (cites) {
-          return {
-            el,
-            cites: cites.split(' ')
-          };
-        } else {
-          return findCites(el.parentElement)
-        }
-      } else {
-        return undefined;
-      }
-    };
-    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-    for (var i=0; i<bibliorefs.length; i++) {
-      const ref = bibliorefs[i];
-      const citeInfo = findCites(ref);
-      if (citeInfo) {
-        tippyHover(citeInfo.el, function() {
-          var popup = window.document.createElement('div');
-          citeInfo.cites.forEach(function(cite) {
-            var citeDiv = window.document.createElement('div');
-            citeDiv.classList.add('hanging-indent');
-            citeDiv.classList.add('csl-entry');
-            var biblioDiv = window.document.getElementById('ref-' + cite);
-            if (biblioDiv) {
-              citeDiv.innerHTML = biblioDiv.innerHTML;
-            }
-            popup.appendChild(citeDiv);
-          });
-          return popup.innerHTML;
-        });
-      }
-    }
-  });
-  </script>
-  <script type="application/javascript">
-  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
-  </script>
-<nav class="page-navigation" aria-label="Page">
-  <div class="nav-page nav-page-previous">
-      <a href="../architecture/index.html" class="pagination-link" aria-label="Cognitive Architecture">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Cognitive Architecture</span></span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../process/index.html" class="pagination-link" aria-label="A Lesson Design Process">
-        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">A Lesson Design Process</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
-</div> <!-- /content -->
+</main>
 
 
-
-
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/gvwilson/t3/edit/main/individual/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/gvwilson/t3/blob/main/individual/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/gvwilson/t3/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+</body></html>
