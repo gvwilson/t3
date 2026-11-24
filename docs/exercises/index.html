@@ -22,12 +22,12 @@
     <div class="topnav-dropdown">
       <span class="topnav-item">Contents</span>
       <div class="topnav-menu"><ul>
-<li><a href="#sec-exercises-classics" id="toc-sec-exercises-classics"><span class="header-section-number">12.1</span> The Classics</a></li>
-<li><a href="#sec-exercises-tracing" id="toc-sec-exercises-tracing"><span class="header-section-number">12.2</span> Tracing</a></li>
-<li><a href="#sec-exercises-diagrams" id="toc-sec-exercises-diagrams"><span class="header-section-number">12.3</span> Diagrams</a></li>
-<li><a href="#sec-exercises-grading" id="toc-sec-exercises-grading"><span class="header-section-number">12.4</span> Automatic Grading</a></li>
-<li><a href="#sec-exercises-higher" id="toc-sec-exercises-higher"><span class="header-section-number">12.5</span> Higher-Level Thinking</a></li>
-<li><a href="#sec-exercises-exercises" id="toc-sec-exercises-exercises"><span class="header-section-number">12.6</span> Exercises</a></li>
+<li><a href="#sec-exercises-classics" id="toc-sec-exercises-classics"><span class="header-section-number">13.1</span> The Classics</a></li>
+<li><a href="#sec-exercises-tracing" id="toc-sec-exercises-tracing"><span class="header-section-number">13.2</span> Tracing</a></li>
+<li><a href="#sec-exercises-diagrams" id="toc-sec-exercises-diagrams"><span class="header-section-number">13.3</span> Diagrams</a></li>
+<li><a href="#sec-exercises-grading" id="toc-sec-exercises-grading"><span class="header-section-number">13.4</span> Automatic Grading</a></li>
+<li><a href="#sec-exercises-higher" id="toc-sec-exercises-higher"><span class="header-section-number">13.5</span> Higher-Level Thinking</a></li>
+<li><a href="#sec-exercises-exercises" id="toc-sec-exercises-exercises"><span class="header-section-number">13.6</span> Exercises</a></li>
 </ul></div>
     </div>
   </nav>
@@ -35,8 +35,8 @@
 <main class="content"><header id="title-block-header" class="quarto-title-block"></header>
 <h1 class="title">Exercise Types</h1>
 <p>Every good carpenter has a set of screwdrivers, and every good teacher has different kinds of exercises to check what learners are actually learning, help them practice their new skills, and keep them engaged. This chapter starts by describing several kinds of exercises you can use to check if your teaching has been effective. It then looks at the state of the art in automated grading, and closes by exploring discussion, projects, and other important kinds of work that require more human attention to assess. Our discussion draws in part on the <a href="http://web-cat.org/questionbank/">Canterbury Question Bank</a> <span class="citation" data-cites="Sand2013">(<a href="../bibliography/index.html#ref-Sand2013" role="doc-biblioref">Sanders et al. 2013</a>)</span>, which has entries for various languages and topics in introductory computing.</p>
-<h2 data-number="12.1" id="sec-exercises-classics"><span class="header-section-number">12.1</span> The Classics</h2>
-<p>As <a href="../models/index.html#sec-models-formative-assessment" class="quarto-xref"><span>Section 2.1</span></a> discussed, <em>multiple choice questions</em> (MCQs) are most effectivemultiple choice question when the wrong answers probe for specific misconceptions. They are usually designed to test the lower levels of Bloom’s TaxonomyBloom's Taxonomy (<a href="../process/index.html#sec-process-objectives" class="quarto-xref"><span>Section 6.2</span></a>), but can also require learners to exercise judgment.</p>
+<h2 data-number="13.1" id="sec-exercises-classics"><span class="header-section-number">13.1</span> The Classics</h2>
+<p>As <a href="../models/index.html#sec-models-formative-assessment" class="quarto-xref"><span>Section 3.1</span></a> discussed, <em>multiple choice questions</em> (MCQs) are most effectivemultiple choice question when the wrong answers probe for specific misconceptions. They are usually designed to test the lower levels of Bloom’s TaxonomyBloom's Taxonomy (<a href="../process/index.html#sec-process-objectives" class="quarto-xref"><span>Section 7.2</span></a>), but can also require learners to exercise judgment.</p>
 <div>
 <blockquote>
 <p><strong>A Multiple Choice Question</strong></p>
@@ -83,7 +83,7 @@
 </ul>
 </blockquote>
 </div>
-<p><em>Fill in the blanks</em> is a refinement of C&amp;R in which the learner is given some starter code and has to complete it. (In practice, most C&amp;R exercises are actually fill in the blanks because the teacher provides comments to remind the learners of the steps they should take.) Questions of this type are the basis for faded examples; as discussed in <a href="../architecture/index.html" class="quarto-xref"><span>Chapter 4</span></a>, novices often find them less intimidating than writing all the code from scratch, and since the teacher has provided most of the answer’s structure, submissions are much more predictable and therefore easier to check.</p>
+<p><em>Fill in the blanks</em> is a refinement of C&amp;R in which the learner is given some starter code and has to complete it. (In practice, most C&amp;R exercises are actually fill in the blanks because the teacher provides comments to remind the learners of the steps they should take.) Questions of this type are the basis for faded examples; as discussed in <a href="../architecture/index.html" class="quarto-xref"><span>Chapter 5</span></a>, novices often find them less intimidating than writing all the code from scratch, and since the teacher has provided most of the answer’s structure, submissions are much more predictable and therefore easier to check.</p>
 <div>
 <blockquote>
 <p><strong>Fill in the Blanks</strong></p>
@@ -105,7 +105,7 @@ for v in values</code></pre>
 </blockquote>
 </div>
 <p>Note that giving learners more lines than they need, or asking them to rearrange some lines and add a few more, makes Parsons Problems significantly harder <span class="citation" data-cites="Harm2016">(<a href="../bibliography/index.html#ref-Harm2016" role="doc-biblioref">Harms et al. 2016</a>)</span>.</p>
-<h2 data-number="12.2" id="sec-exercises-tracing"><span class="header-section-number">12.2</span> Tracing</h2>
+<h2 data-number="13.2" id="sec-exercises-tracing"><span class="header-section-number">13.2</span> Tracing</h2>
 <p><em>Tracing execution</em> is the inverse of a Parsons Problem: given a few lines of code, the learner has to trace the order in which those lines are executed. This is an essential debugging skilldebugging and a good way to solidify learners’ understanding of loops, conditionals, and the evaluation order of function and method calls. The easiest way to implement it is to have learners write out a sequence of labeled steps. Having them choose the correct sequence from a set (i.e.&nbsp;presenting this as an MCQ) adds cognitive load without adding value, since they have to do all the work of figuring out the correct sequence, then search for it in the list of options.</p>
 <div>
 <blockquote>
@@ -181,13 +181,13 @@ for v in values:
         result.append(v)</code></pre>
 </blockquote>
 </div>
-<h2 data-number="12.3" id="sec-exercises-diagrams"><span class="header-section-number">12.3</span> Diagrams</h2>
-<p>Having learners draw concept maps and other diagrams gives insight into how they’re thinking (<a href="../memory/index.html#sec-memory-concept-maps" class="quarto-xref"><span>Section 3.1</span></a>), but free-form diagrams take human time and judgment to assess. <em>Labeling diagrams</em>, on the other hand, is almost as powerful pedagogically but much easier to scale.</p>
+<h2 data-number="13.3" id="sec-exercises-diagrams"><span class="header-section-number">13.3</span> Diagrams</h2>
+<p>Having learners draw concept maps and other diagrams gives insight into how they’re thinking (<a href="../memory/index.html#sec-memory-concept-maps" class="quarto-xref"><span>Section 4.1</span></a>), but free-form diagrams take human time and judgment to assess. <em>Labeling diagrams</em>, on the other hand, is almost as powerful pedagogically but much easier to scale.</p>
 <p>Rather than having learners create diagrams from scratch, provide them with a diagram and a set of labels and have them put the latter in the right places on the former. The diagram can be a data structure (“after this code is executed, which variables point to which parts of this structure?”), a chart (“match each of these pieces of code with the part of the chart it generated”), or the code itself (“match each term to an example of that program element”).</p>
 <div>
 <blockquote>
 <p><strong>Labeling a Diagram</strong></p>
-<p><a href="#fig-exercises-labeling" class="quarto-xref">Figure&nbsp;<span>12.1</span></a> shows how a small fragment of HTML is represented in memory. Put the labels 1–9 on the elements of the tree to show the order in which they are reached in a depth-first traversal.</p>
+<p><a href="#fig-exercises-labeling" class="quarto-xref">Figure&nbsp;<span>13.1</span></a> shows how a small fragment of HTML is represented in memory. Put the labels 1–9 on the elements of the tree to show the order in which they are reached in a depth-first traversal.</p>
 </blockquote>
 </div>
 <div id="fig-exercises-labeling" class="quarto-float quarto-figure quarto-figure-center">
@@ -196,7 +196,7 @@ for v in values:
 <img src="figures/labeling.svg">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-exercises-labeling-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;12.1: Labeling a diagram
+Figure&nbsp;13.1: Labeling a diagram
 </figcaption>
 </figure>
 </div>
@@ -205,7 +205,7 @@ Figure&nbsp;12.1: Labeling a diagram
 <div>
 <blockquote>
 <p><strong>Matching</strong></p>
-<p>Match each regular expression operator in <a href="#fig-exercises-matching" class="quarto-xref">Figure&nbsp;<span>12.2</span></a> with what it does.</p>
+<p>Match each regular expression operator in <a href="#fig-exercises-matching" class="quarto-xref">Figure&nbsp;<span>13.2</span></a> with what it does.</p>
 </blockquote>
 </div>
 <div id="fig-exercises-matching" class="quarto-float quarto-figure quarto-figure-center">
@@ -214,14 +214,14 @@ Figure&nbsp;12.1: Labeling a diagram
 <img src="figures/matching.svg">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-exercises-matching-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;12.2: Matching items
+Figure&nbsp;13.2: Matching items
 </figcaption>
 </figure>
 </div>
 <p>With <em>many-to-many matching</em> the lists aren’t the same length, so some items may be matched to several others and others may not be matched at all. Many-to-many are more difficult because learners can’t do easy matches first to reduce their search space. Matching problems can be implemented by having learners submit lists of matching pairs (such as “A3, B1, C2”), but that’s clumsy and error-prone. Having them recognize a set of correct pairs in an MCQ is even worse, as it’s painfully easy to misread. Drawing or dragging works much better, but may require some work to implement.</p>
 <p><em>Ranking</em> is a special case of matching that is (slightly) more amenable to answering via lists, since our minds are pretty good at detecting errors or anomalies in sequences. The ranking criteria determine the level of reasoning required. If you have learners order sorting algorithms from fastest to slowest you are probably exercising recall (i.e.&nbsp;asking them recognizing the algorithms’ names and know their properties), while asking them to rank solutions from most robust to most brittle exercises reasoning and judgment.</p>
-<p><em>Summarization</em> also requires learners to use higher-order thinking and gives them a chance to practice a skill that is very useful when reporting bugs. For example, you can ask learners, “Which sentence best describes how the output of f changes as x varies from 0 to 10?” and then given several options as a multiple choice question. You can also ask for very short free-form answers to questions in constrained domains, such as, “What is the key feature of a stable sorting algorithm?” We can’t fully automate checks for these without a frustrating number of false positives (accepting wrong answers) and false negatives (rejecting correct ones), but questions of this kind lend themselves well to peer grading (<a href="../individual/index.html#sec-individual-peer" class="quarto-xref"><span>Section 5.3</span></a>).</p>
-<h2 data-number="12.4" id="sec-exercises-grading"><span class="header-section-number">12.4</span> Automatic Grading</h2>
+<p><em>Summarization</em> also requires learners to use higher-order thinking and gives them a chance to practice a skill that is very useful when reporting bugs. For example, you can ask learners, “Which sentence best describes how the output of f changes as x varies from 0 to 10?” and then given several options as a multiple choice question. You can also ask for very short free-form answers to questions in constrained domains, such as, “What is the key feature of a stable sorting algorithm?” We can’t fully automate checks for these without a frustrating number of false positives (accepting wrong answers) and false negatives (rejecting correct ones), but questions of this kind lend themselves well to peer grading (<a href="../individual/index.html#sec-individual-peer" class="quarto-xref"><span>Section 6.3</span></a>).</p>
+<h2 data-number="13.4" id="sec-exercises-grading"><span class="header-section-number">13.4</span> Automatic Grading</h2>
 <p>automatic grading</p>
 <p>Automatic program grading tools have been around longer than I have been alive: the earliest published mention dates from 1960 <span class="citation" data-cites="Holl1960">(<a href="../bibliography/index.html#ref-Holl1960" role="doc-biblioref">Hollingsworth 1960</a>)</span>, and the surveys published in <span class="citation" data-cites="Douc2005">Ihantola et al. (<a href="../bibliography/index.html#ref-Ihan2010" role="doc-biblioref">2010</a>)</span> mention many specific tools by name. Building such tools is a lot more complex than it might first seem. How are assignments represented? How are submissions tracked and reported? Can learners co-operate? How can submissions be executed safely? <span class="citation" data-cites="Edwa2014a">(<a href="../bibliography/index.html#ref-Edwa2014a" role="doc-biblioref">Edwards et al. 2014</a>)</span> is an entire paper devoted to an adaptive scheme for detecting and managing infinite loops in code submissions, and that’s just one of the many issues that comes up.</p>
 <p>When discussing auto-graders, it is important to distinguish learner satisfaction from learning outcomes. For example, <span class="citation" data-cites="Magu2018">(<a href="../bibliography/index.html#ref-Magu2018" role="doc-biblioref">Maguire et al. 2018</a>)</span> switched informal programming labs for a second-year CS course to a weekly machine-evaluated test using an auto-grader. Learners didn’t like the automated system, but the overall failure rate for the course was halved and the number of learners gaining first class honors tripled. In contrast, <span class="citation" data-cites="Rubi2014">(<a href="../bibliography/index.html#ref-Rubi2014" role="doc-biblioref">Rubio-Sánchez et al. 2014</a>)</span> also began to use an auto-grader designed for competitions, but saw no significant decrease in their learners’ dropout rates; once again, learners made some negative comments about the tool, which the authors attribute to the quality of its feedback messages rather than to dislike of auto-grading.</p>
@@ -238,10 +238,10 @@ Figure&nbsp;12.2: Matching items
 <p>In order to provide that feedback, <span class="citation" data-cites="Buff2015">(<a href="../bibliography/index.html#ref-Buff2015" role="doc-biblioref">Buffardi and Edwards 2015</a>)</span>’s system identifies which methods in the learner’s code are executed by failing tests so that the system can associate failed tests with particular features within the learner’s submission. The system decides whether specific hints have been “earned” by seeing whether the learner has tested the associated feature enough, so learners cannot rely on hints instead of doing tests.</p>
 <p><span class="citation" data-cites="Srid2016">(<a href="../bibliography/index.html#ref-Srid2016" role="doc-biblioref">Sridhara et al. 2016</a>)</span> describes some other approaches for sharing feedback with learners when automatically testing their code. The first is to provide the expected output for the tests—but then learners hard-code output for those inputs (because anything that can be gamed will be). The second is to report the pass/fail results for the learners’ code, but only supply the actual inputs and outputs of the tests after the submission date. However, telling learners that they are wrong but not telling them why is frustrating.</p>
 <p>A third option is to use a technique called <a href="../glossary/index.html#hashing">hashing</a> to generate a value that depends on the output but doesn’t reveal it. If the user produces exactly the right output then its hash will unlock the solution, but it is impossible to work backward from the hash to figure out what the output is supposed to be. Hashing requires more work and explanation to set up, but strikes a good balance between revealing answers prematurely and not revealing them when it would help.</p>
-<h2 data-number="12.5" id="sec-exercises-higher"><span class="header-section-number">12.5</span> Higher-Level Thinking</h2>
+<h2 data-number="13.5" id="sec-exercises-higher"><span class="header-section-number">13.5</span> Higher-Level Thinking</h2>
 <p>Many other kinds of programming exercises are hard for teachers to assess in a class with more than handful of learners and equally hard for automated platforms to assess at all. Larger programming projects are (hopefully) what classes are building toward, but the only way to give feedback is case by case.</p>
 <p><em>Code review</em> is also hard to grade automatically in general, but can be tackled if learners are given a list of faults to look for and asked to match particular comments against particular lines of code. For example, the learner can be told that there are two indentation errors and one bad variable name and asked to point them out. If they are more advanced, they could be given half a dozen kinds of remarks they could make about the code without being told how many of each they should find.</p>
-<p><span class="citation" data-cites="Steg2016b">(<a href="../bibliography/index.html#ref-Steg2016b" role="doc-biblioref">Stegeman et al. 2016</a>)</span> is a good starting point for a code style rubric, while <span class="citation" data-cites="Luxt2009">(<a href="../bibliography/index.html#ref-Luxt2009" role="doc-biblioref">Luxton-Reilly 2009</a>)</span> looks at peer review in programming classes more generally. If you are going to have learners do reviews, use calibrated peer review (<a href="../individual/index.html#sec-individual-peer" class="quarto-xref"><span>Section 5.3</span></a>)calibrated peer review so that they have models of what good feedback should look like.</p>
+<p><span class="citation" data-cites="Steg2016b">(<a href="../bibliography/index.html#ref-Steg2016b" role="doc-biblioref">Stegeman et al. 2016</a>)</span> is a good starting point for a code style rubric, while <span class="citation" data-cites="Luxt2009">(<a href="../bibliography/index.html#ref-Luxt2009" role="doc-biblioref">Luxton-Reilly 2009</a>)</span> looks at peer review in programming classes more generally. If you are going to have learners do reviews, use calibrated peer review (<a href="../individual/index.html#sec-individual-peer" class="quarto-xref"><span>Section 6.3</span></a>)calibrated peer review so that they have models of what good feedback should look like.</p>
 <div>
 <blockquote>
 <p><strong>Code Review</strong></p>
@@ -262,23 +262,23 @@ Figure&nbsp;12.2: Matching items
 </ol>
 </blockquote>
 </div>
-<h2 data-number="12.6" id="sec-exercises-exercises"><span class="header-section-number">12.6</span> Exercises</h2>
-<h3 class="exercise" data-number="12.6.1" id="code-and-run-pairs10-min"><span class="header-section-number">12.6.1</span> Code and Run (pairs/10 min)</h3>
+<h2 data-number="13.6" id="sec-exercises-exercises"><span class="header-section-number">13.6</span> Exercises</h2>
+<h3 class="exercise" data-number="13.6.1" id="code-and-run-pairs10-min"><span class="header-section-number">13.6.1</span> Code and Run (pairs/10 min)</h3>
 <p>Create a short C&amp;R exercise, then trade with a partner and see how long it takes each of you to understand and do the other’s exercise. Were there any ambiguities or misunderstandings in the exercise description?</p>
-<h3 class="exercise" data-number="12.6.2" id="inverting-code-and-run-small-groups15-min"><span class="header-section-number">12.6.2</span> Inverting Code and Run (small groups/15 min)</h3>
+<h3 class="exercise" data-number="13.6.2" id="inverting-code-and-run-small-groups15-min"><span class="header-section-number">13.6.2</span> Inverting Code and Run (small groups/15 min)</h3>
 <p>Form groups of 4–6 people. Have each member of the group create an inverted C&amp;R exercise that requires people to figure out what input produces a particular output. Pick two at random and see how many different inputs the group can find that satisfy the requirements.</p>
-<h3 class="exercise" data-number="12.6.3" id="tracing-values-pairs10-min"><span class="header-section-number">12.6.3</span> Tracing Values (pairs/10 min)</h3>
+<h3 class="exercise" data-number="13.6.3" id="tracing-values-pairs10-min"><span class="header-section-number">13.6.3</span> Tracing Values (pairs/10 min)</h3>
 <p>Write a short program (10–15 lines), trade with a partner, and trace how the variables in the program change value over time. What differences are there in how you and your partner wrote down your traces?</p>
-<h3 class="exercise" data-number="12.6.4" id="refactoring-small-groups15-min"><span class="header-section-number">12.6.4</span> Refactoring (small groups/15 min)</h3>
+<h3 class="exercise" data-number="13.6.4" id="refactoring-small-groups15-min"><span class="header-section-number">13.6.4</span> Refactoring (small groups/15 min)</h3>
 <p>Form groups of 3–4 people. Have each person select a short piece of code (10–30 lines long) they have written that isn’t as tidy as it could be, then choose one at random and have everyone in the group tidy it up independently. How do your cleaned-up versions differ? How well or how poorly would you be able to accommodate all of these variations if marking automatically or in a large class?</p>
-<h3 class="exercise" data-number="12.6.5" id="labeling-a-diagram-pairs10-min"><span class="header-section-number">12.6.5</span> Labeling a Diagram (pairs/10 min)</h3>
+<h3 class="exercise" data-number="13.6.5" id="labeling-a-diagram-pairs10-min"><span class="header-section-number">13.6.5</span> Labeling a Diagram (pairs/10 min)</h3>
 <p>Draw a diagram showing something that you have explained recently: how browsers fetch data from servers, the relationship between objects and classes, or how data frames are indexed in R. Put the labels on the side and ask your partner to place them.</p>
-<h3 class="exercise" data-number="12.6.6" id="pencil-and-paper-puzzles-whole-class15-min"><span class="header-section-number">12.6.6</span> Pencil-and-Paper Puzzles (whole class/15 min)</h3>
+<h3 class="exercise" data-number="13.6.6" id="pencil-and-paper-puzzles-whole-class15-min"><span class="header-section-number">13.6.6</span> Pencil-and-Paper Puzzles (whole class/15 min)</h3>
 <p><span class="citation" data-cites="Butl2017">(<a href="../bibliography/index.html#ref-Butl2017" role="doc-biblioref">Butler et al. 2017</a>)</span> describes a set of pencil-and-paper puzzles that can be turned into introductory programming assignments and reports that these assignments are enjoyed by learners and encourage meta-cognition. Think of a simple pencil-and-paper puzzle or game you played as a child and describe how you would turn it into a programming exercise.</p>
-<h3 class="exercise" data-number="12.6.7" id="counting-failures-pairs15-min"><span class="header-section-number">12.6.7</span> Counting Failures (pairs/15 min)</h3>
-<p>Any useful estimate of how much time an exercise needs must take into account how frequent failures are and how much time is lost to them. For example, editing text files seems like a simple task, but what about finding those files? Most GUI editors save things to the user’s desktop or home directory; if the files used in a course are stored somewhere else, a substantial fraction won’t be able to navigate to the right directory without help. (If this seems like a small problem to you, please revisit the discussion of expert blind spot in <a href="../memory/index.html" class="quarto-xref"><span>Chapter 3</span></a>.)</p>
+<h3 class="exercise" data-number="13.6.7" id="counting-failures-pairs15-min"><span class="header-section-number">13.6.7</span> Counting Failures (pairs/15 min)</h3>
+<p>Any useful estimate of how much time an exercise needs must take into account how frequent failures are and how much time is lost to them. For example, editing text files seems like a simple task, but what about finding those files? Most GUI editors save things to the user’s desktop or home directory; if the files used in a course are stored somewhere else, a substantial fraction won’t be able to navigate to the right directory without help. (If this seems like a small problem to you, please revisit the discussion of expert blind spot in <a href="../memory/index.html" class="quarto-xref"><span>Chapter 4</span></a>.)</p>
 <p>Working with a partner, make a list of “simple” things you have seen go wrong in exercises you have used or taken. How often do they come up? How long do they take learners to fix on their own or with help? How much time do you currently budget in class to deal with them?</p>
-<h3 class="exercise" data-number="12.6.8" id="speaking-of-timings-individual10-min"><span class="header-section-number">12.6.8</span> Speaking of Timings (individual/10 min)</h3>
+<h3 class="exercise" data-number="13.6.8" id="speaking-of-timings-individual10-min"><span class="header-section-number">13.6.8</span> Speaking of Timings (individual/10 min)</h3>
 <p>How accurate have the time estimates on the exercises in this book been so far?</p>
 
 <div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
