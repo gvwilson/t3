@@ -4,7 +4,6 @@ metadata-files:
 book:
   title: "Teaching Tech Together"
   repo-url: "https://github.com/gvwilson/t3"
-  repo-actions: [edit, source, issue]
   cover-image: images/t3-cover.jpg
   cover-image-alt: "Software Design by Example: book cover"
   chapters:
