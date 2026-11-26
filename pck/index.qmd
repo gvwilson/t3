@@ -49,7 +49,7 @@ But since actual teachers in actual classrooms have to make decisions
 regardless of whether research has clear answers yet or not,
 this chapter presents actionable best guesses rather than nuanced perhapses.
 
-::: {.callout-note title="Jargon"}
+::: {.note data-title="Jargon"}
 Like any specialty,
 CER has jargon.
 {{<g cs1 "CS1">}} refers to an introductory semester-long course
@@ -86,7 +86,7 @@ Their results for sequencing, repetition, and conditionals are essentially colle
 that combine and rationalize the implicit and explicit thinking of many different educators
 (@fig-pck-trajectory).
 
-![Learning trajectory for conditions (from [@Rich2017])](figures/conditionals.svg){#fig-pck-trajectory}
+![Learning trajectory for conditions (from [@Rich2017])](figures/conditionals.svg){#fig-pck-trajectory fig-alt="[Learning trajectory for conditions"}
 
 ## How Much Are They Learning? {#sec-pck-learning}
 
@@ -186,7 +186,7 @@ are made many times,
 like invoking methods with the wrong arguments
 (e.g. passing a string instead of an integer).
 
-::: {.callout-note title="Not Right vs. Not Done"}
+::: {.note data-title="Not Right vs. Not Done"}
 One difficulty in research like this is distinguishing mistakes from work in progress.
 For example,
 an empty `if` statement or a method that is defined but not yet used
@@ -203,7 +203,7 @@ For example,
 mistaking `=` (assignment) and `==` (equality)
 wasn't nearly as common as most teachers believed.
 
-::: {.callout-note title="Not Just for Code"}
+::: {.note data-title="Not Just for Code"}
 [@Park2015] collected data from an online HTML editor during an introductory web development course
 and found that nearly all learners made syntax errors that remained unresolved weeks into the course.
 20% of these errors related to the relatively complex rules
@@ -351,7 +351,7 @@ before moving to text-based systems.
 The age qualification is there because Scratch deliberately looks like it's meant for younger users,
 and it can still be hard to convince adults to take it seriously.
 
-![Scratch](figures/scratch-program.png){#fig-pck-scratch}
+![Scratch](figures/scratch-program.png){#fig-pck-scratch fig-alt="Scratch"}
 
 Scratch has probably been studied more than any other programming tool.
 One example is [@Aiva2016],
@@ -368,7 +368,7 @@ What's more,
 as tasks become more complex (such as using nested loops)
 the differences become larger.
 
-::: {.callout-note title="Harder Than Necessary"}
+::: {.note data-title="Harder Than Necessary"}
 The creators of programming languages make those languages harder to learn by not doing basic usability testing.
 For example,
 [@Stef2013] found that,
@@ -514,7 +514,7 @@ The answer is no:
 there was no correlation between the time taken and the score achieved.
 Our recommendation is therefore to **teach learners to trace variables' values when debugging**.
 
-::: {.callout-note title="Flowcharts"}
+::: {.note data-title="Flowcharts"}
 {{<i "flowcharts">}}
   One often-overlooked finding about visualization is that
   people understand flowcharts better than pseudocode *if both are equally well structured* [@Scan1989].
@@ -569,7 +569,7 @@ Peer Support
 Other Support
 :   An umbrella term for all support activities, e.g. increased teacher hours, additional support channels, etc.
 
-![Effectiveness of interventions](figures/interventions-scaled.png){#fig-pck-interventions}
+![Effectiveness of interventions](figures/interventions-scaled.png){#fig-pck-interventions fig-alt="Effectiveness of interventions"}
 
 This list highlights the importance of cooperative learning.
 [@Beck2013] looked at this specifically over three academic years in courses taught by two different teachers
@@ -578,7 +578,7 @@ The cooperators had higher grades
 and left fewer questions blank on the final exam,
 which indicates greater self-efficacy and willingness to try to debug things.
 
-::: {.callout-note title="Computing Without Coding"}
+::: {.note data-title="Computing Without Coding"}
 Writing code isn't the only way to teach people how to program:
 having novices work on computational creativity exercises improves grades at several levels [@Shel2017].
 A typical exercise is to describe an everyday object (such as a paper clip or toothbrush)

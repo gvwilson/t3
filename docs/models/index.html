@@ -55,11 +55,8 @@ have mental models that include exceptions and special cases, which allows them 
 </blockquote>
 <p>Your goal when teaching novices should therefore be to help them construct a mental model so that they have somewhere to put facts. For example, Software Carpentry’sThe Carpentries <a href="http://swcarpentry.github.io/shell-novice/">lesson on the Unix shell</a> introduces fifteen commands in three hours. That’s one command every twelve minutes, which seems glacially slow until you realize that the lesson’s real purpose isn’t to teach those fifteen commands: it’s to teach paths, history, tab completion, wildcards, pipes, command-line arguments, and redirection. Specific commands don’t make sense until novices understand those concepts; once they do, they can start to read manual pages, search for the right keywords on the web, and tell whether the results of their searches are useful or not.</p>
 <p>The cognitive differences between novices and competent practitioners underpin the differences between two kinds of teaching materials. A <a href="../glossary/index.html#tutorial">tutorial</a> helps newcomers to a field build a mental model; a <a href="../glossary/index.html#manual">manual</a>, on the other hand, helps competent practitioners fill in the gaps in their knowledge. Tutorials frustrate competent practitioners because they move too slowly and say things that are obvious (though they are anything <em>but</em> obvious to novices). Equally, manuals frustrate novices because they use jargon and <em>don’t</em> explain things. This phenomenon is called the <a href="../glossary/index.html#expertise-reversal">expertise reversal effect</a> <span class="citation" data-cites="Kaly2003">(<a href="../bibliography/index.html#ref-Kaly2003" role="doc-biblioref">Kalyuga et al. 2003</a>)</span>, and is one of the reasons you have to decide early on who your lessons are for.</p>
-<div>
-<blockquote>
-<p><strong>A Handful of Exceptions</strong></p>
+<div class="note" data-title="A Handful of Exceptions">
 <p>One of the reasons Unix and C became popular is that <span class="citation" data-cites="Kern1978">Kernighan and Ritchie (<a href="../bibliography/index.html#ref-Kern1988" role="doc-biblioref">1988</a>)</span> somehow managed to be good tutorials <em>and</em> good manuals at the same time. <span class="citation" data-cites="Fehi2008">(<a href="../bibliography/index.html#ref-Fehi2008" role="doc-biblioref">Fehily 2008</a>)</span> and <span class="citation" data-cites="Ray2014">(<a href="../bibliography/index.html#ref-Ray2014" role="doc-biblioref">Ray and Ray 2014</a>)</span> are among the very few other books in computing that achieve this; even after re-reading them several times, I don’t know how they pull it off.</p>
-</blockquote>
 </div>
 <h2 data-number="3.1" id="sec-models-formative-assessment"><span class="header-section-number">3.1</span> Are People Learning?</h2>
 <p>Mark Twain once wrote,Twain, Mark “It ain’t what you don’t know that gets you into trouble. It’s what you know for sure that just ain’t so.” One of the exercises in building a mental model is therefore to clear away things that <em>don’t</em> belong. Broadly speaking, novices’ misconceptions fall into three categories:</p>
@@ -78,12 +75,9 @@ such as “the world is only a few thousand years old” or “some kinds of peo
 </dd>
 </dl>
 <p>People learn fastest when teachers identify and clear up learners’ misconceptions as the lesson is being delivered. This is called <a href="../glossary/index.html#formative-assessment">formative assessment</a> because it forms (or shapes) the teaching while it is taking place. Learners don’t pass or fail formative assessment; instead, it gives both the teacher and the learner feedback on how well they are doing and what they should focus on next. For example, a music teacher might ask a learner to play a scale very slowly to check their breathing. The learner finds out if they are breathing correctly, while the teacher gets feedback on whether the explanation they just gave made sense.</p>
-<div>
-<blockquote>
-<p><strong>Summing Up</strong></p>
+<div class="note" data-title="Summing Up">
 <p>The counterpoint to formative assessment is <a href="../glossary/index.html#summative-assessment">summative assessment</a>, which takes place at the end of the lesson. Summative assessment is like a driver’s test: it tells the learner whether they have mastered the topic and the teacher whether their lesson was successful. One way of thinking about the difference is that a chef tasting food as she cooks it is formative assessments, but the guests tasting it once it’s served is summative.</p>
 <p>Unfortunately, school has trained most people to believe that all assessment is summative, i.e.&nbsp;that if something feels like a test, doing poorly will count against you. Making formative assessments feel informal helps reduce this anxiety; in my experience, using online quizzes, clickers, or anything else seems to increase it, since most people today believe that anything they do on the web is being watched and recorded.</p>
-</blockquote>
 </div>
 <p>In order to be useful during teaching, a formative assessment has to be quick to administer (so that it doesn’t break the flow of the lesson) and have an unambiguous correct answer (so that it can be used with groups).formative assessment!requirements The most widely used kind of formative assessment is probably the multiple choice question (MCQ).multiple choice question A lot of teachers have a low opinion of them, but when they are designed well, they can reveal much more than just whether someone knows specific facts. For example, suppose you are teaching children how to do multi-digit addition <span class="citation" data-cites="Ojos2015">(<a href="../bibliography/index.html#ref-Ojos2015" role="doc-biblioref">Ojose 2015</a>)</span> and you give them this MCQ:</p>
 <blockquote>
@@ -104,28 +98,19 @@ such as “the world is only a few thousand years old” or “some kinds of peo
 <p>Each of these incorrect answers is a <a href="../glossary/index.html#plausible-distractor">plausible distractor</a> with <a href="../glossary/index.html#diagnostic-power">diagnostic power</a>. A distractor is a wrong or less-than-best answer; “plausible” means that it looks like it could be right, while “diagnostic power” means that each of the distractors helps the teacher figure out what to explain next to that particular learner.</p>
 <p>The spread of responses to a formative assessment guides what you do next. If enough of the class has the right answer, you move on. If the majority of the class chooses the same wrong answer, you should go back and work on correcting the misconception that distractor points to. If their answers are evenly split between several options they are probably just guessing, so you should back up and re-explain the idea in a different way. (Repeating exactly the same explanation will probably not be useful, which is one of things that makes so many video courses pedagogically ineffective.)</p>
 <p>What if most of the class votes for the right answer but a few vote for wrong ones? In that case, you have to decide whether you should spend time getting the minority caught up or whether it’s more important to keep the majority engaged. No matter how hard you work or what teaching practices you use, you won’t always be able to give everyone what they need; it’s your responsibility as a teacher to make the call.</p>
-<div>
-<blockquote>
-<p><strong>Where Do Wrong Answers Come From?</strong></p>
+<div class="note" data-title="Where Do Wrong Answers Come From?">
 <p>In order to come up with plausible distractors, think about the questions your learners asked or problems they had the last time you taught this subject. If you haven’t taught it before, think about your own misconceptions, ask colleagues about their experiences, or look at the history of your field: if everyone misunderstood your subject in some way fifty years ago, the odds are that a lot of your learners will still misunderstand it that way today. You can also ask open-ended questions in class to collect misconceptions about material to be covered in a later class, or check question and answer sites like <a href="http://www.quora.com">Quora</a> or <a href="https://stackoverflow.com/">Stack Overflow</a> to see what people learning the subject elsewhere are confused by.</p>
-</blockquote>
 </div>
 <p>Developing formative assessments makes your lessons better because it forces you to think about your learners’ mental models. In my experience, once I do this I automatically write the lesson to cover the most likely gaps and errors. Formative assessments therefore pay off even if they aren’t used (though teaching is more effective if they are).</p>
 <p>MCQs aren’t the only kind of formative assessment: <a href="../exercises/index.html" class="quarto-xref"><span>Chapter 13</span></a> describes other kinds of exercises that are quick and unambiguous. Whatever you pick, you should do something that takes a minute or two every 10–15 minutes to make sure that your learners are actually learning. This rhythm isn’t based on an intrinsic attentional limit: <span class="citation" data-cites="Wils2007">(<a href="../bibliography/index.html#ref-Wils2007" role="doc-biblioref">Wilson and Korn 2007</a>)</span> found little support for the often-repeated claim that learners can only pay attention for 10–15 minutes. Instead, the guideline ensures that if a significant number of people have fallen behind, you only have to repeat a short portion of the lesson. Frequent formative assessments also keep learners engaged, particularly if they involved small-group discussion (<a href="../classroom/index.html#sec-classroom-peer" class="quarto-xref"><span>Section 10.2</span></a>).</p>
 <p>Formative assessments can also be used <em>before</em> lessons. If you start a class with an MCQ and everyone answers it correctly, you can avoid explaining something that your learners already know. This kind of <a href="../glossary/index.html#active-teaching">active teaching</a> gives you more time to focus on things they don’t know. It also shows learners that you respect their time enough not to waste it, which helps with motivation (<a href="../motivation/index.html" class="quarto-xref"><span>Chapter 11</span></a>).</p>
-<div>
-<blockquote>
-<p><strong>Concept Inventories</strong></p>
+<div class="note" data-title="Concept Inventories">
 <p>Given enough data, MCQs can be made surprisingly precise. The best-known example is the <a href="../glossary/index.html#concept-inventory">Force Concept Inventory</a>concept inventory <span class="citation" data-cites="Hest1992">(<a href="../bibliography/index.html#ref-Hest1992" role="doc-biblioref">Hestenes et al. 1992</a>)</span>, which assesses understanding of basic Newtonian mechanics. By interviewing a large number of respondents, correlating their misconceptions with patterns of right and wrong answers, and then improving the questions, its creators constructed a diagnostic tool that can pinpoint specific misconceptions. Researchers can then use that tool to measure the effect of changes in teaching methods <span class="citation" data-cites="Hake1998">(<a href="../bibliography/index.html#ref-Hake1998" role="doc-biblioref">Hake 1998</a>)</span>.</p>
 <p>Tew and others developed and validated a language-independent assessment for introductory programming <span class="citation" data-cites="Tew2011">(<a href="../bibliography/index.html#ref-Tew2011" role="doc-biblioref">Tew and Guzdial 2011</a>)</span>; <span class="citation" data-cites="Park2016">(<a href="../bibliography/index.html#ref-Park2016" role="doc-biblioref">Parker et al. 2016</a>)</span> replicated it, and <span class="citation" data-cites="Hamo2017">(<a href="../bibliography/index.html#ref-Hamo2017" role="doc-biblioref">Hamouda et al. 2017</a>)</span> is developing a concept inventory for recursion. However, it’s very costly to build tools like this, and learners’ ability to search for answers online is an ever-increasing threat to their validity.</p>
-</blockquote>
 </div>
 <p>Working formative assessments into class only requires a little bit of preparation and practice. Giving learners colored or numbered cards so that they can all answer an MCQ at once (rather than holding up their hands in turn), having one of the options be, “I have no idea,” and encouraging them to talk to their neighbors for a few seconds before answering will all help ensure that your teaching flow isn’t disrupted. <a href="../classroom/index.html#sec-classroom-peer" class="quarto-xref"><span>Section 10.2</span></a> describes a powerful, evidence-based teaching method that builds on these simple ideas.</p>
-<div>
-<blockquote>
-<p><strong>Humor</strong></p>
+<div class="note" data-title="Humor">
 <p>Teachers sometimes put supposedly-silly answers like “my nose!” on MCQs, particularly ones intended for younger learners. However, these don’t provide any insight into learners’ misconceptions, and most people don’t actually find them funny. As a rule, you should only include a joke in a lesson if you find it funny the third time you re-read it.</p>
-</blockquote>
 </div>
 <p>A lesson’s formative assessments should prepare learners for its summative assessment: no one should ever encounter a question on an exam that the teaching did not prepare them for. This doesn’t mean you should never put new kinds of problems on an exam, but if you do, you should have given learners practice tackling novel problems beforehand. <a href="../process/index.html" class="quarto-xref"><span>Chapter 7</span></a> explores this in depth.</p>
 <h2 data-number="3.2" id="sec-models-notional"><span class="header-section-number">3.2</span> Notional Machines</h2>
@@ -162,10 +147,10 @@ such as “the world is only a few thousand years old” or “some kinds of peo
 <p>When you are done, trade MCQs with a partner. Is their question ambiguous? Are the misconceptions plausible? Do the distractors actually test for them? Are any likely misconceptions <em>not</em> tested for?</p>
 <h3 class="exercise" data-number="3.3.4" id="thinking-things-through-whole-class15-min"><span class="header-section-number">3.3.4</span> Thinking Things Through (whole class/15 min)</h3>
 <p>A good formative assessment requires people to think through a problem. For example, imagine that you have placed a block of ice in a bathtub and then filled the tub to the rim with water. When the ice melts, does the water level go up (so that the tub overflows), go down, or stay the same (<a href="#fig-models-bathtub" class="quarto-xref">Figure&nbsp;<span>3.1</span></a>)?</p>
-<div id="fig-models-bathtub" class="quarto-float quarto-figure quarto-figure-center">
+<div id="fig-models-bathtub" class="quarto-float quarto-figure quarto-figure-center" alt="Ice in a bathtub">
 <figure class="quarto-float quarto-float-fig">
 <div aria-describedby="fig-models-bathtub-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figures/bathtub.svg">
+<img src="figures/bathtub.svg" alt="Ice in a bathtub">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-models-bathtub-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;3.1: Ice in a bathtub
@@ -221,20 +206,20 @@ Programs are built objects like dams and airplanes, and are more or less effecti
 <h3 class="exercise" data-number="3.3.10" id="enjoying-without-learning-individual5-min"><span class="header-section-number">3.3.10</span> Enjoying Without Learning (individual/5 min)</h3>
 <p>Multiple studies have shown that teaching evaluations don’t correlate with learning outcomes <span class="citation" data-cites="Star2014">Uttl et al. (<a href="../bibliography/index.html#ref-Uttl2017" role="doc-biblioref">2017</a>)</span>, i.e.&nbsp;that how highly learners rate a course doesn’t predict how much they remember. Have you ever enjoyed a class that you didn’t actually learn anything from? If so, what made it enjoyable?</p>
 <h2 class="unnumbered" id="review">Review</h2>
-<div id="fig-models-concept-map" class="quarto-float quarto-figure quarto-figure-center">
+<div id="fig-models-concept-map" class="quarto-float quarto-figure quarto-figure-center" alt="Concepts: Mental models">
 <figure class="quarto-float quarto-float-fig">
 <div aria-describedby="fig-models-concept-map-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figures/conceptmap-mental-models.svg">
+<img src="figures/conceptmap-mental-models.svg" alt="Concepts: Mental models">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-models-concept-map-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;3.2: Concepts: Mental models
 </figcaption>
 </figure>
 </div>
-<div id="fig-models-formative-assessment" class="quarto-float quarto-figure quarto-figure-center">
+<div id="fig-models-formative-assessment" class="quarto-float quarto-figure quarto-figure-center" alt="Concepts: Assessment">
 <figure class="quarto-float quarto-float-fig">
 <div aria-describedby="fig-models-formative-assessment-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figures/conceptmap-assessment.svg">
+<img src="figures/conceptmap-assessment.svg" alt="Concepts: Assessment">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-models-formative-assessment-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;3.3: Concepts: Assessment

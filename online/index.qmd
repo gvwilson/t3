@@ -104,7 +104,7 @@ or provided guidance for common errors,
 and other than rudimentary age-based differentiation,
 none personalized lessons based on prior coding experience or learner goals.
 
-::: {.callout-note title="Personalized Learning"}
+::: {.note data-title="Personalized Learning"}
 Few terms have been used and abused in as many ways
 as {{<g personalized-learning "personalized learning">}}.
 To most ed tech proponents,
@@ -205,7 +205,7 @@ most of its findings are still relevant.
 about the communities of practice that learners may hope to join;
 we explore some of its ideas in @sec-community.
 
-::: {.callout-note title="Freedom To and Freedom From"}
+::: {.note data-title="Freedom To and Freedom From"}
 Isaiah Berlin's 1958 essay{{<i "Berlin, Isaiah">}}
 "[Two Concepts of Liberty](https://en.wikipedia.org/wiki/Two\_Concepts\_of\_Liberty)"
 made a distinction between positive liberty,
@@ -262,7 +262,7 @@ since they offer some of the same advantages as live coding (@sec-performance-li
 and the relationships between them.
 (It's also a good example of a concept map (@sec-memory-concept-maps).)
 
-![Patterns for screencasting](figures/screencast.svg){#fig-online-screencasting}
+![Patterns for screencasting](figures/screencast.svg){#fig-online-screencasting fig-alt="Patterns for screencasting"}
 
 So what makes an instructional video effective?
 [@Guo2014] measured engagement by looking at how long learners watched MOOC videos,
@@ -290,7 +290,7 @@ we know that learner evaluations of courses don't correlate with learning [@Star
 and while it's plausible that learners won't learn from things they don't watch,
 it remains to be proven that they *do* learn from things they *do* watch.
 
-::: {.callout-note title="I'm a Little Uncomfortable"}
+::: {.note data-title="I'm a Little Uncomfortable"}
 [@Guo2014]'s research was approved by a university research ethics board,
 the learners whose viewing habits were monitored almost certainly clicked "agree"
 on a terms of service agreement at some point,
@@ -474,7 +474,7 @@ or that most learner-to-learner discussion will take place
 through channels that they are already using
 that we may not be part of.
 
-::: {.callout-note title="Co-opetition"}
+::: {.note data-title="Co-opetition"}
 [@Gull2004] describes an online coding contest that combines collaboration and competition.
 The contest starts when a problem description is posted along with a correct but inefficient solution.
 When it ends,
@@ -509,7 +509,7 @@ decreased disagreement even further.
 And as discussed in @sec-individual-peer,
 collusion and bias are *not* significant factors in peer grading.
 
-::: {.callout-note title="Trust, but Educate"}
+::: {.note data-title="Trust, but Educate"}
 The most common way to measure the validity of feedback
 is to compare learners' grades to experts' grades,
 but calibrated peer review (@sec-individual-peer) can be equally effective.

@@ -18,7 +18,7 @@ This book presents key ideas you can use right now,
 explains why we believe they are true,
 and points you at other resources that will help you go further.
 
-::: {.callout-note title="Re-Use"}
+::: {.note data-title="Re-Use"}
 Parts of this book were originally created for
 [the Software Carpentry instructor training program](http://carpentries.github.io/instructor-training/),
 and all of it can be freely distributed and re-used

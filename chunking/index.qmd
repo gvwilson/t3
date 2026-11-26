@@ -2,4 +2,4 @@
 
 See the last exercise in @sec-memory for the unchunked representation of these symbols.
 
-![Chunked representation](figures/chunking-chunked.svg){#fig-chunking-chunked}
+![Chunked representation](figures/chunking-chunked.svg){#fig-chunking-chunked fig-alt="Chunked representation"}

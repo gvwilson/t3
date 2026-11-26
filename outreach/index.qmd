@@ -151,7 +151,7 @@ The aim of both is to tell a story:
 while people always ask for data,
 they believe and remember stories.
 
-::: {.callout-note title="Foundational Myths"}
+::: {.note data-title="Foundational Myths"}
 One of the most compelling stories a person or group can tell is
 why and how they got started.
 Are you teaching what you wish someone had taught you but didn't?
@@ -184,7 +184,7 @@ and some idea of what you teach,
 when you teach it,
 and how it's going to change their lives.
 
-::: {.callout-note title="Not Everyone Lives Online"}
+::: {.note data-title="Not Everyone Lives Online"}
 These examples assume people have access to the internet
 and that groups have money, materials, free time, and/or technical skills.
 Many don't—in fact,
@@ -277,7 +277,7 @@ but is much better than the 2–3% response rate most organizations expect with 
 >
 > NAME
 
-::: {.callout-note title="Referrals"}
+::: {.note data-title="Referrals"}
 Building alliances with other groups that are doing things related to your work
 pays off in many ways.
 One of those is referrals:

@@ -23,7 +23,7 @@ They are usually designed to test the lower levels of Bloom's Taxonomy{{<i "Bloo
 (@sec-process-objectives),
 but can also require learners to exercise judgment.
 
-::: {.callout-note title="A Multiple Choice Question"}
+::: {.note data-title="A Multiple Choice Question"}
 In what order do operations occur when the computer evaluates the
 expression `price = addTaxes(cost - discount)`?
 
@@ -49,7 +49,7 @@ For more advanced learners,
 figuring out which function to call is more engaging
 and a better gauge of their understanding.
 
-::: {.callout-note title="Code & Run"}
+::: {.note data-title="Code & Run"}
 The variable `picture` contains a full-color image read from a file.
 Using one function,
 create a black and white version of the image
@@ -60,7 +60,7 @@ Write and run exercises can be combined with MCQs.
 For example,
 this MCQ can only be answered by running the Unix `ls` command:
 
-::: {.callout-note title="Combining MCQ with Code & Run"}
+::: {.note data-title="Combining MCQ with Code & Run"}
 You are in the directory `/home`.
 Which of the following files is *not* in that directory?
 
@@ -92,7 +92,7 @@ to determine whether a piece of code conforms to a spec.
 This is a useful skill in its own right,
 and doing it may give learners a bit more sympathy for how hard their teachers work.
 
-::: {.callout-note title="Inverting Code & Run"}
+::: {.note data-title="Inverting Code & Run"}
 The function `monotonic_sum` calculates the sum of each section
 of a list of numbers in which the values are strictly increasing.
 For example,
@@ -117,7 +117,7 @@ novices often find them less intimidating than writing all the code from scratch
 and since the teacher has provided most of the answer's structure,
 submissions are much more predictable and therefore easier to check.
 
-::: {.callout-note title="Fill in the Blanks"}
+::: {.note data-title="Fill in the Blanks"}
   Fill in the blanks
   so that the code below prints the string `'hat'`.
 
@@ -135,7 +135,7 @@ Tools for building and doing Parsons Problems online exist [@Ihan2011],
 but they can be emulated (albeit somewhat clumsily)
 by asking learners to rearrange lines of code in an editor.
 
-::: {.callout-note title="Parsons Problem"}
+::: {.note data-title="Parsons Problem"}
   Rearrange and indent these lines to sum the positive values in a list.
   (You will need to add colons in appropriate places as well.)
 
@@ -166,7 +166,7 @@ adds cognitive load without adding value,
 since they have to do all the work of figuring out the correct sequence,
 then search for it in the list of options.
 
-::: {.callout-note title="Tracing Execution Order"}
+::: {.note data-title="Tracing Execution Order"}
   In what order are the labeled lines in this block of code executed?
 
 ```text
@@ -189,7 +189,7 @@ whose columns are labeled with variable names
 and whose rows are labeled with line numbers,
 and ask them to fill in the values taken on by the variables on those lines.
 
-::: {.callout-note title="Tracing Values"}
+::: {.note data-title="Tracing Values"}
   What values do `left` and `right` take on as this program executes?
 
 ```text
@@ -207,7 +207,7 @@ These *reverse execution* problems require search and deductive reasoning,
 and when the output is an error message,
 they help learners develop valuable debugging skills.
 
-::: {.callout-note title="Reverse Execution"}
+::: {.note data-title="Reverse Execution"}
   Fill in the missing number in `values`
   that caused this function to crash.
 
@@ -225,7 +225,7 @@ the learner must find it and make one small change to fix it.
 Making the change can be done using C&R,
 while identifying it can be done as a multiple choice question.
 
-::: {.callout-note title="Minimal Fix"}
+::: {.note data-title="Minimal Fix"}
   This function is supposed to test
   whether a number lies within a range.
   Make one small change so that it actually does so.
@@ -253,7 +253,7 @@ this kind of exercise gives learners a chance to practice a useful real-world sk
 the fastest way to produce the code they need
 is to tweak code that already does something close.
 
-::: {.callout-note title="Theme and Variations"}
+::: {.note data-title="Theme and Variations"}
   Change the inner loop in the function below
   so that it fills the upper left triangle of an image with a specified color.
 
@@ -278,7 +278,7 @@ This is also a useful real-world skill,
 but there are often so many ways to refactor code
 that grading requires human inspection.
 
-::: {.callout-note title="Refactoring"}
+::: {.note data-title="Refactoring"}
   Write a single list comprehension
   that has the same effect as this loop.
 
@@ -308,14 +308,14 @@ The diagram can be a data structure
 a chart ("match each of these pieces of code with the part of the chart it generated"),
 or the code itself ("match each term to an example of that program element").
 
-::: {.callout-note title="Labeling a Diagram"}
+::: {.note data-title="Labeling a Diagram"}
 @fig-exercises-labeling shows
 how a small fragment of HTML is represented in memory.
 Put the labels 1–9 on the elements of the tree
 to show the order in which they are reached in a depth-first traversal.
 :::
 
-![Labeling a diagram](figures/labeling.svg){#fig-exercises-labeling}
+![Labeling a diagram](figures/labeling.svg){#fig-exercises-labeling fig-alt="Labeling a diagram"}
 
 Another way to use diagrams is
 to give learners the pieces of the diagram and ask them to arrange them correctly.
@@ -334,12 +334,12 @@ and the labels are taken from the other column.
 and asks them to pair corresponding items,
 e.g. "match each piece of code with the output it produces."
 
-::: {.callout-note title="Matching"}
+::: {.note data-title="Matching"}
 Match each regular expression operator in @fig-exercises-matching
 with what it does.
 :::
 
-![Matching items](figures/matching.svg){#fig-exercises-matching}
+![Matching items](figures/matching.svg){#fig-exercises-matching fig-alt="Matching items"}
 
 With *many-to-many matching* the lists aren't the same length,
 so some items may be matched to several others
@@ -428,7 +428,7 @@ the vast majority of learners chose to validate their understanding of test case
 before attempting to solve problems,
 and then asked fewer questions and expressed less confusion about assignments.
 
-::: {.callout-note title="Against Off-the-Shelf Tools"}
+::: {.note data-title="Against Off-the-Shelf Tools"}
 It's tempting to use off-the-shelf style checking tools to grade learners' code.
 However,
 [@Nutb2016] initially found no correlation between human-provided marks
@@ -516,7 +516,7 @@ If you are going to have learners do reviews,
 use calibrated peer review (@sec-individual-peer){{<i "calibrated peer review">}}
 so that they have models of what good feedback should look like.
 
-::: {.callout-note title="Code Review"}
+::: {.note data-title="Code Review"}
 Mark the problems in each line of code using the rubric provided.
 
 ```text

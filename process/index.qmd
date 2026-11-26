@@ -53,7 +53,7 @@ This method helps keep teaching focused on its objectives.
 It also ensures that learners don't face anything at the end of the course
 that they are not prepared for.
 
-::: {.callout-note title="Perverse Incentives"}
+::: {.note data-title="Perverse Incentives"}
 Backward design is *not* the same thing as {{<g teaching-to-the-test "teaching to the test">}}.
 When using backward design,
 teachers set goals to aid in lesson design;
@@ -128,7 +128,7 @@ teachers can say,
 or,
 "What installation problems would Jorge face?"
 
-::: {.callout-note title="Their Goals, Not Yours"}
+::: {.note data-title="Their Goals, Not Yours"}
 Personas should always describe what the learner wants to do
 rather than what you think they actually need.
 Ask yourself what they are searching for online;
@@ -158,7 +158,7 @@ a statement like "understand Git" could mean any of the following:
 -   Learners can explain what a detached HEAD is
     and recover from it using command-line operations.
 
-::: {.callout-note title="Objectives vs. Outcomes"}
+::: {.note data-title="Objectives vs. Outcomes"}
 A learning objective is what a lesson strives to achieve.
 A {{<g learning-outcome "learning outcome">}} is what it actually achieves,
 i.e. what learners actually take away.
@@ -455,4 +455,4 @@ what would.
 
 ## Review {.unnumbered}
 
-![Concepts: Learner personas](figures/conceptmap-personas.svg){#fig-process-personas}
+![Concepts: Learner personas](figures/conceptmap-personas.svg){#fig-process-personas fig-alt="Concepts: Learner personas"}

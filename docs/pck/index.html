@@ -69,11 +69,8 @@ WEIRD they are from Western, Education, Industrialized, Rich, and Democratic soc
 </dd>
 </dl>
 <p>If this was an academic treatise, I would therefore preface most claims with qualifiers like, “Some research may seem to indicate that…” But since actual teachers in actual classrooms have to make decisions regardless of whether research has clear answers yet or not, this chapter presents actionable best guesses rather than nuanced perhapses.</p>
-<div>
-<blockquote>
-<p><strong>Jargon</strong></p>
+<div class="note" data-title="Jargon">
 <p>Like any specialty, CER has jargon. <a href="../glossary/index.html#cs1">CS1</a> refers to an introductory semester-long course in which learners meet variables, loops, and functions for the first time, while <a href="../glossary/index.html#cs2">CS2</a> refers to a second course that covers basic data structures like stacks and queues, and <a href="../glossary/index.html#cs0">CS0</a> refers to an introductory course for people without any prior experience who aren’t intending to continue with computing right away. Full definitions for these terms can be found in the <a href="https://www.acm.org/education/curricula-recommendations">ACM Curriculum Guidelines</a>.</p>
-</blockquote>
 </div>
 <h2 data-number="8.1" id="sec-pck-now"><span class="header-section-number">8.1</span> What Are We Teaching Them Now?</h2>
 <p>Very little is known about what coding bootcamps and other free-range initiatives teach, in part because many are reluctant to share their curriculum. We know more about what is taught by institutions <span class="citation" data-cites="Luxt2017">(<a href="../bibliography/index.html#ref-Luxt2017" role="doc-biblioref">Luxton-Reilly et al. 2017</a>)</span>:</p>
@@ -132,10 +129,10 @@ WEIRD they are from Western, Education, Industrialized, Rich, and Democratic soc
 </tbody>
 </table>
 <p>High-level topic labels like these can hide a multitude of sins. A more tangible result comes from <span class="citation" data-cites="Rich2017">(<a href="../bibliography/index.html#ref-Rich2017" role="doc-biblioref">Rich et al. 2017</a>)</span>, which reviewed a hundred articles to find learning trajectories for computing classes in elementary and middle schools. Their results for sequencing, repetition, and conditionals are essentially collective concept maps that combine and rationalize the implicit and explicit thinking of many different educators (<a href="#fig-pck-trajectory" class="quarto-xref">Figure&nbsp;<span>8.1</span></a>).</p>
-<div id="fig-pck-trajectory" class="quarto-float quarto-figure quarto-figure-center">
+<div id="fig-pck-trajectory" class="quarto-float quarto-figure quarto-figure-center" alt="[Learning trajectory for conditions">
 <figure class="quarto-float quarto-float-fig">
 <div aria-describedby="fig-pck-trajectory-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figures/conditionals.svg">
+<img src="figures/conditionals.svg" alt="[Learning trajectory for conditions">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pck-trajectory-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;8.1: Learning trajectory for conditions (from <span class="citation" data-cites="Rich2017">(<a href="../bibliography/index.html#ref-Rich2017" role="doc-biblioref">Rich et al. 2017</a>)</span>)
@@ -163,18 +160,12 @@ print(total)</code></pre>
 </ul>
 <h2 data-number="8.4" id="sec-pck-mistakes"><span class="header-section-number">8.4</span> What Mistakes Do Novices Make?</h2>
 <p>The mistakes novices make can tell us what to prioritize in our teaching, but it turns out that most teachers don’t know how common different kinds of mistakes actually are. The largest study of this is <span class="citation" data-cites="Brow2017">(<a href="../bibliography/index.html#ref-Brow2017" role="doc-biblioref">Brown and Altadmri 2017</a>)</span>, which found that mismatched quotes and parentheses are the most common type of errors in novice Java programs, but also the easiest to fix, while some mistakes (like putting the condition of an <code>if</code> in <code>{}</code> instead of <code>()</code>) are most often made only once. Unsurprisingly, mistakes that produce compiler errors are fixed much faster than ones that don’t. Some mistakes, however, are made many times, like invoking methods with the wrong arguments (e.g.&nbsp;passing a string instead of an integer).</p>
-<div>
-<blockquote>
-<p><strong>Not Right vs.&nbsp;Not Done</strong></p>
+<div class="note" data-title="Not Right vs. Not Done">
 <p>One difficulty in research like this is distinguishing mistakes from work in progress. For example, an empty <code>if</code> statement or a method that is defined but not yet used may be a sign of incomplete code rather than an error.</p>
-</blockquote>
 </div>
 <p><span class="citation" data-cites="Brow2017">(<a href="../bibliography/index.html#ref-Brow2017" role="doc-biblioref">Brown and Altadmri 2017</a>)</span> also compared the mistakes novices actually make with what their teachers thought they made. They found that, “…educators formed only a weak consensus about which mistakes are most frequent, that their rankings bore only a moderate correspondence to the students in the…data, and that educators’ experience had no effect on this level of agreement.” For example, mistaking <code>=</code> (assignment) and <code>==</code> (equality) wasn’t nearly as common as most teachers believed.</p>
-<div>
-<blockquote>
-<p><strong>Not Just for Code</strong></p>
+<div class="note" data-title="Not Just for Code">
 <p><span class="citation" data-cites="Park2015">(<a href="../bibliography/index.html#ref-Park2015" role="doc-biblioref">Park et al. 2015</a>)</span> collected data from an online HTML editor during an introductory web development course and found that nearly all learners made syntax errors that remained unresolved weeks into the course. 20% of these errors related to the relatively complex rules that dictate <em>when</em> it is valid for HTML elements to be nested in one another, but 35% related to the simpler tag syntax determining <em>how</em> HTML elements are nested. The tendency of many teachers to say, “But the rules are simple,” is a good example of expert blind spot discussed in <a href="../memory/index.html" class="quarto-xref"><span>Chapter 4</span></a>…</p>
-</blockquote>
 </div>
 <h2 data-number="8.5" id="sec-pck-programming"><span class="header-section-number">8.5</span> How Do Novices Program?</h2>
 <p><span class="citation" data-cites="Solo1984">Soloway (<a href="../bibliography/index.html#ref-Solo1986" role="doc-biblioref">1986</a>)</span> pioneered the exploration of novice and expert programming strategies. The key finding is that experts know both “what” and “how,” i.e.&nbsp;they understand what to put into programs <em>and</em> they have a set of program patterns or plans to guide their construction.program patterns Novices lack both, but most teachers focus solely on the former, even though bugs are often caused by not having a strategy for solving the problem rather than to lack of knowledge about the language. Recent work has shown the effectiveness of teaching four distinct skills in a specific order <span class="citation" data-cites="Xie2019">(<a href="../bibliography/index.html#ref-Xie2019" role="doc-biblioref">Xie et al. 2019</a>)</span>:</p>
@@ -221,10 +212,10 @@ print(total)</code></pre>
 <p>blocks-based programming</p>
 <p>The short answer is “yes”: novices learn to program faster and learn more using blocks-based tools like Scratch (<a href="#fig-pck-scratch" class="quarto-xref">Figure&nbsp;<span>8.2</span></a>) <span class="citation" data-cites="Wein2017">(<a href="../bibliography/index.html#ref-Wein2017" role="doc-biblioref">Weintrop and Wilensky 2017</a>)</span>.Scratch One reason is that blocks-based systems reduce cognitive load by eliminating the possibility of syntax errors. Another is that block interfaces encourage exploration in a way that text does not: like all good tools, Scratch can be learned accidentally <span class="citation" data-cites="Malo2010">(<a href="../bibliography/index.html#ref-Malo2010" role="doc-biblioref">Maloney et al. 2010</a>)</span>.</p>
 <p>But what happens <em>after</em> blocks? <span class="citation" data-cites="Chen2018">(<a href="../bibliography/index.html#ref-Chen2018" role="doc-biblioref">Chen et al. 2018</a>)</span> found that learners whose first programming language was graphical had higher grades in introductory programming courses than learners whose first language was textual when the languages were introduced in or before early adolescent years. Our sixth recommendation is therefore to <strong>start children and teens with blocks-based interfaces</strong> before moving to text-based systems. The age qualification is there because Scratch deliberately looks like it’s meant for younger users, and it can still be hard to convince adults to take it seriously.</p>
-<div id="fig-pck-scratch" class="quarto-float quarto-figure quarto-figure-center">
+<div id="fig-pck-scratch" class="quarto-float quarto-figure quarto-figure-center" alt="Scratch">
 <figure class="quarto-float quarto-float-fig">
 <div aria-describedby="fig-pck-scratch-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figures/scratch-program.png">
+<img src="figures/scratch-program.png" alt="Scratch">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pck-scratch-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;8.2: Scratch
@@ -232,11 +223,8 @@ Figure&nbsp;8.2: Scratch
 </figure>
 </div>
 <p>Scratch has probably been studied more than any other programming tool. One example is <span class="citation" data-cites="Aiva2016">(<a href="../bibliography/index.html#ref-Aiva2016" role="doc-biblioref">Aivaloglou and Hermans 2016</a>)</span>, which analyzed over 250,000 Scratch projects and found (among other things) that about 28% of projects have some blocks that are never called or triggered. As in the earlier aside about incomplete versus incorrect Java programs, the authors hypothesize that users may be using these blocks as a scratchpad to keep track of bits of code they don’t (yet) want to throw away. Another example is <span class="citation" data-cites="Grov2017">Mladenović et al. (<a href="../bibliography/index.html#ref-Mlad2017" role="doc-biblioref">2017</a>)</span>, which studied novices learning about loops in Scratch, Logo, and Python.ScratchPython They found that misconceptions about loops are minimized when using a block-based language rather than a text-based language. What’s more, as tasks become more complex (such as using nested loops) the differences become larger.</p>
-<div>
-<blockquote>
-<p><strong>Harder Than Necessary</strong></p>
+<div class="note" data-title="Harder Than Necessary">
 <p>The creators of programming languages make those languages harder to learn by not doing basic usability testing. For example, <span class="citation" data-cites="Stef2013">(<a href="../bibliography/index.html#ref-Stef2013" role="doc-biblioref">Stefik and Siebert 2013</a>)</span> found that, “…the three most common words for looping in computer science, <code>for</code>, <code>while</code>, and <code>foreach</code>, were rated as the three most unintuitive choices by non-programmers.” Their work shows that C-style syntax (as used in Java and Perl) is just as hard for novices to learn as a randomly designed syntax, but that the syntax of languages such as Python and RubyPythonRuby is significantly easier to learn, and the syntax of a language whose features are tested before being added to the language is easier still. <span class="citation" data-cites="Stef2017">(<a href="../bibliography/index.html#ref-Stef2017" role="doc-biblioref">Stefik et al. 2017</a>)</span> is a useful brief summary of what we actually know about designing programming languages and why we believe it’s true, while <span class="citation" data-cites="Guzd2016">(<a href="../bibliography/index.html#ref-Guzd2016" role="doc-biblioref">Guzdial 2016</a>)</span> lays out five principles that programming languages for learners should follow.</p>
-</blockquote>
 </div>
 <h3 class="unnumbered" id="object-oriented-programming">Object-Oriented Programming</h3>
 <p>object-oriented programming</p>
@@ -267,11 +255,8 @@ If "string" refers to a datatype, capitalize the 's'!</code></pre>
 <p>Visualizing program execution is a perennially popular idea, and tools like the Online Python Tutor <span class="citation" data-cites="Guo2013">(<a href="../bibliography/index.html#ref-Guo2013" role="doc-biblioref">Guo 2013</a>)</span> and <a href="http://latentflip.com/loupe/">Loupe</a> (which shows how JavaScript’s event loop works) are useful teaching aids. However, people learn more from constructing visualizations than they do from viewing visualizations constructed by others <span class="citation" data-cites="Stas1998">Cetin and Andrews-Larson (<a href="../bibliography/index.html#ref-Ceti2016" role="doc-biblioref">2016</a>)</span>, so does visualization actually help learning?</p>
 <p>To answer this, <span class="citation" data-cites="Cunn2017">(<a href="../bibliography/index.html#ref-Cunn2017" role="doc-biblioref">Cunningham et al. 2017</a>)</span> replicated an earlier study of the kinds of sketching learners do when tracing code execution. They found that not sketching at all correlates with lower success, while tracing changes to variables’ values by writing new values near their names as they change was the most effective strategy.</p>
 <p>One possible confounding effect they checked was time: since sketchers take significantly more time to solve problems, do they do better just because they think for longer? The answer is no: there was no correlation between the time taken and the score achieved. Our recommendation is therefore to <strong>teach learners to trace variables’ values when debugging</strong>.</p>
-<div>
-<blockquote>
-<p><strong>Flowcharts</strong></p>
+<div class="note" data-title="Flowcharts">
 <p>flowcharts One often-overlooked finding about visualization is that people understand flowcharts better than pseudocode <em>if both are equally well structured</em> <span class="citation" data-cites="Scan1989">(<a href="../bibliography/index.html#ref-Scan1989" role="doc-biblioref">Scanlan 1989</a>)</span>. Earlier work showing that pseudocode outperformed flowcharts used structured pseudocode and tangled flowcharts; when the playing field was leveled, novices did better with the graphical representation.</p>
-</blockquote>
 </div>
 <h2 data-number="8.10" id="sec-pck-help"><span class="header-section-number">8.10</span> What Else Can We Do to Help?</h2>
 <p><span class="citation" data-cites="Viha2014">(<a href="../bibliography/index.html#ref-Viha2014" role="doc-biblioref">Vihavainen et al. 2014</a>)</span> examined the average improvement in pass rates of various kinds of intervention in programming classes. They point out that there are many reasons to take their findings with a grain of salt: the pre-change teaching practices are rarely stated clearly, the quality of change is not judged, and only 8.3% of studies reported negative findings, so either there is positive reporting bias or the way we’re teaching right now is the worst possible and anything would be an improvement. And like many other studies discussed in this chapter, they were only looking at university classes, so their findings may not generalize to other groups.</p>
@@ -318,10 +303,10 @@ Support by peers in form of pairs, groups, hired peer mentors or tutors.
 An umbrella term for all support activities, e.g.&nbsp;increased teacher hours, additional support channels, etc.
 </dd>
 </dl>
-<div id="fig-pck-interventions" class="quarto-float quarto-figure quarto-figure-center">
+<div id="fig-pck-interventions" class="quarto-float quarto-figure quarto-figure-center" alt="Effectiveness of interventions">
 <figure class="quarto-float quarto-float-fig">
 <div aria-describedby="fig-pck-interventions-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figures/interventions-scaled.png">
+<img src="figures/interventions-scaled.png" alt="Effectiveness of interventions">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pck-interventions-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;8.3: Effectiveness of interventions
@@ -329,11 +314,8 @@ Figure&nbsp;8.3: Effectiveness of interventions
 </figure>
 </div>
 <p>This list highlights the importance of cooperative learning. <span class="citation" data-cites="Beck2013">(<a href="../bibliography/index.html#ref-Beck2013" role="doc-biblioref">Beck and Chizhik 2013</a>)</span> looked at this specifically over three academic years in courses taught by two different teachers and found significant benefits overall and for many subgroups. The cooperators had higher grades and left fewer questions blank on the final exam, which indicates greater self-efficacy and willingness to try to debug things.</p>
-<div>
-<blockquote>
-<p><strong>Computing Without Coding</strong></p>
+<div class="note" data-title="Computing Without Coding">
 <p>Writing code isn’t the only way to teach people how to program: having novices work on computational creativity exercises improves grades at several levels <span class="citation" data-cites="Shel2017">(<a href="../bibliography/index.html#ref-Shel2017" role="doc-biblioref">Shell et al. 2017</a>)</span>. A typical exercise is to describe an everyday object (such as a paper clip or toothbrush) in terms of its inputs, outputs, and functions. This kind of teaching is sometimes called <a href="../glossary/index.html#cs-unplugged">unplugged</a>CS unplugged; the <a href="https://csunplugged.org/en/">CS Unplugged</a> site has lessons and exercises for doing this.</p>
-</blockquote>
 </div>
 <h2 data-number="8.11" id="sec-pck-final"><span class="header-section-number">8.11</span> Where Next?</h2>
 <p>For those who want to go deeper, <span class="citation" data-cites="Finc2019">(<a href="../bibliography/index.html#ref-Finc2019" role="doc-biblioref">Fincher and Robins 2019</a>)</span> is a comprehensive summary of CER, <span class="citation" data-cites="Ihan2016">(<a href="../bibliography/index.html#ref-Ihan2016" role="doc-biblioref">Ihantola et al. 2016</a>)</span> summarizes the methods that studies use most often. I hope that some day we will have catalogs like <span class="citation" data-cites="Ojos2015">(<a href="../bibliography/index.html#ref-Ojos2015" role="doc-biblioref">Ojose 2015</a>)</span> and more teacher training materials like <span class="citation" data-cites="Hazz2014">Sentance et al. (<a href="../bibliography/index.html#ref-Sent2018" role="doc-biblioref">2018</a>)</span> to help us all do better.</p>

@@ -84,7 +84,7 @@ This phenomenon is called the {{<g expertise-reversal "expertise reversal effect
 and is one of the reasons you have to decide early on
 who your lessons are for.
 
-::: {.callout-note title="A Handful of Exceptions"}
+::: {.note data-title="A Handful of Exceptions"}
 One of the reasons Unix and C became popular is that
 [@Kern1978,@Kern1983,@Kern1988]
 somehow managed to be good tutorials *and* good manuals at the same time.
@@ -125,7 +125,7 @@ a music teacher might ask a learner to play a scale very slowly to check their b
 The learner finds out if they are breathing correctly,
 while the teacher gets feedback on whether the explanation they just gave made sense.
 
-::: {.callout-note title="Summing Up"}
+::: {.note data-title="Summing Up"}
 The counterpoint to formative assessment is
 {{<g summative-assessment "summative assessment">}},
 which takes place at the end of the lesson.
@@ -211,7 +211,7 @@ No matter how hard you work or what teaching practices you use,
 you won't always be able to give everyone what they need;
 it's your responsibility as a teacher to make the call.
 
-::: {.callout-note title="Where Do Wrong Answers Come From?"}
+::: {.note data-title="Where Do Wrong Answers Come From?"}
 In order to come up with plausible distractors,
 think about the questions your learners asked or problems they had
 the last time you taught this subject.
@@ -258,7 +258,7 @@ gives you more time to focus on things they don't know.
 It also shows learners that you respect their time enough not to waste it,
 which helps with motivation (@sec-motivation).
 
-::: {.callout-note title="Concept Inventories"}
+::: {.note data-title="Concept Inventories"}
 Given enough data,
 MCQs can be made surprisingly precise.
 The best-known example is the
@@ -288,7 +288,7 @@ will all help ensure that your teaching flow isn't disrupted.
 @sec-classroom-peer describes a powerful,
 evidence-based teaching method that builds on these simple ideas.
 
-::: {.callout-note title="Humor"}
+::: {.note data-title="Humor"}
 Teachers sometimes put supposedly-silly answers like "my nose!" on MCQs,
 particularly ones intended for younger learners.
 However,
@@ -403,7 +403,7 @@ does the water level go up (so that the tub overflows),
 go down,
 or stay the same (@fig-models-bathtub)?
 
-![Ice in a bathtub](figures/bathtub.svg){#fig-models-bathtub}
+![Ice in a bathtub](figures/bathtub.svg){#fig-models-bathtub fig-alt="Ice in a bathtub"}
 
 The correct answer is that the level stays the same:
 the ice displaces its own weight in water,
@@ -493,6 +493,6 @@ If so, what made it enjoyable?
 
 ## Review {.unnumbered}
 
-![Concepts: Mental models](figures/conceptmap-mental-models.svg){#fig-models-concept-map}
+![Concepts: Mental models](figures/conceptmap-mental-models.svg){#fig-models-concept-map fig-alt="Concepts: Mental models"}
 
-![Concepts: Assessment](figures/conceptmap-assessment.svg){#fig-models-formative-assessment}
+![Concepts: Assessment](figures/conceptmap-assessment.svg){#fig-models-formative-assessment fig-alt="Concepts: Assessment"}

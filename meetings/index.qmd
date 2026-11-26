@@ -68,7 +68,7 @@ In my experience,
 an hour of training on how to be a moderator
 is one of the best investments you will ever make.
 
-::: {.callout-note title="Sticky Notes and Interruption Bingo"}
+::: {.note data-title="Sticky Notes and Interruption Bingo"}
 Some people are so used to the sound of their own voice
 that they will insist on talking half the time
 no matter how many other people are in the room.

@@ -72,7 +72,7 @@ but it is part of reason there is no correlation between
 how good someone is at doing research in an area
 and how good they are at teaching it [@Mars2002].
 
-::: {.callout-note title="The J Word"}
+::: {.note data-title="The J Word"}
 Experts often betray their blind spot by using the word "just,"
 as in,
 "Oh, it's easy, you just fire up a new virtual machine
@@ -92,7 +92,7 @@ As examples,
 @fig-memory-seasons shows why the Earth has seasons (from [IHMC](https://cmap.ihmc.us/)),
 and @sec-conceptmaps presents concept maps for libraries from three points of view.
 
-![Concept map for seasons](figures/seasons.svg){#fig-memory-seasons}
+![Concept map for seasons](figures/seasons.svg){#fig-memory-seasons fig-alt="Concept map for seasons"}
 
 To show how concept maps can be using in teaching programming,
 consider this `for` loop in Python:{{<i "Python">}}
@@ -116,7 +116,7 @@ but they are only half the story.
 The expanded version in the bottom shows the relationships between those things,
 which are as important for understanding as the concepts themselves.
 
-![Concept map for a `for` loop](figures/for-loop.svg){#fig-memory-loop}
+![Concept map for a `for` loop](figures/for-loop.svg){#fig-memory-loop fig-alt="Concept map for a `for` loop"}
 
 Concept maps can be used in many ways:
 
@@ -142,7 +142,7 @@ it tests personal understanding rather than knowledge that was merely learned by
 As someone who values understanding over rote knowledge,
 I consider that a benefit.
 
-::: {.callout-note title="Start Anywhere"}
+::: {.note data-title="Start Anywhere"}
 When first asked to draw a concept map, many people will not know where to start.
 When this happens,
 write down two words associated with the topic you're trying to map,
@@ -160,7 +160,7 @@ All of these {{<g externalized-cognition "externalize cognition">}}{{<i "externa
 i.e. make mental models visible so that they can be compared and combined^[To paraphrase Oscar Wilde's Lady Windermere,{{<i "Wilde, Oscar">}}
 people often don't know what they're thinking until they've heard themselves say it.].
 
-::: {.callout-note title="Rough Work and Honesty"}
+::: {.note data-title="Rough Work and Honesty"}
 Many user interface designers believe that
 it's better to show people rough sketches of their ideas rather than polished mock-ups
 because people are more likely to give honest feedback on something that they think
@@ -197,7 +197,7 @@ are 7 or 8 digits long:
 back when phones had dials instead of keypads,
 that was the longest string of numbers most adults could remember accurately for as long as it took the dial to go around several times.
 
-::: {.callout-note title="Participation"}
+::: {.note data-title="Participation"}
 The size of working memory is sometimes used to explain
 why sports teams tend to have about half a dozen members
 or are broken into sub-groups like the forwards and backs in rugby.
@@ -226,9 +226,9 @@ the teacher chooses a subsection that will fit in short-term memory
 and lead to a formative assessment (@fig-memory-photosynthesis),{{<i "formative assessment">}}
 then adds another subsection for the next lesson episode and so on.
 
-![Using concept maps in lesson design](figures/photosynthesis.svg){#fig-memory-photosynthesis}
+![Using concept maps in lesson design](figures/photosynthesis.svg){#fig-memory-photosynthesis fig-alt="Using concept maps in lesson design"}
 
-::: {.callout-note title="Building Concept Maps Together"}
+::: {.note data-title="Building Concept Maps Together"}
 The next time you have a team meeting,
 give everyone a sheet of paper
 and have them spend a few minutes drawing their own concept map of the project you're all working on.
@@ -296,7 +296,7 @@ Give feedback on others' work.
 Give feedback to themselves.
 :   At some point, the learner starts critiquing their own work as they do it using the skills they have now built up. Doing this is so much faster than waiting for feedback from others that proficiency suddenly starts to take off.
 
-::: {.callout-note title="What Counts as Deliberate Practice?"}
+::: {.note data-title="What Counts as Deliberate Practice?"}
 [@Macn2014] found that,
 "…deliberate practice explained 26% of the variance in performance for games,
 21% for music,
@@ -397,4 +397,4 @@ When you are finished,
 look at the alternative representation in @sec-chunking.
 How much easier are the symbols to remember when the pattern is made explicit?
 
-![Unchunked representation](figures/chunking-unchunked.svg){#fig-memory-unchunked}
+![Unchunked representation](figures/chunking-unchunked.svg){#fig-memory-unchunked fig-alt="Unchunked representation"}

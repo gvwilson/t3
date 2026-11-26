@@ -106,7 +106,7 @@ even when none of the learners in a discussion group originally knew the correct
 As long as there is a diversity of opinion within the group,
 their misconceptions cancel out.
 
-::: {.callout-note title="Taking a Stand"}
+::: {.note data-title="Taking a Stand"}
 It is important to have learners vote publicly
 so that they can't change their minds afterward and rationalize it
 by making excuses to themselves like "I just misread the question."
@@ -148,7 +148,7 @@ and reduces the risk that they will be so tired by the end of the day
 that they will start snapping at their learners
 or fumbling at their keyboard.
 
-::: {.callout-note title="Helping"}
+::: {.note data-title="Helping"}
 Many people who aren't comfortable teaching
 are willing and able to provide in-class technical support.
 They can help learners with setup and installation,
@@ -231,7 +231,7 @@ a phenomenon called the {{<g dunning-kruger-effect "Dunning-Kruger effect">}} [@
 Conversely,
 people who are members of underrepresented groups will often underrate their skills.
 
-![The Dunning-Kruger Effect](figures/dunning-kruger.png){#fig-classroom-dunning-kruger}
+![The Dunning-Kruger Effect](figures/dunning-kruger.png){#fig-classroom-dunning-kruger fig-alt="The Dunning-Kruger Effect"}
 
 Rather than asking people to self-assess,
 you can ask them how easily they could complete some specific tasks.
@@ -283,7 +283,7 @@ with helpers roaming the room to get people unstuck.
 Some people will go three or four times further than others when workshops are run like this,
 but everyone will have had a rewarding and challenging day.
 
-::: {.callout-note title="False Beginners"}
+::: {.note data-title="False Beginners"}
 A {{<g false-beginner "false beginner">}} is someone
 who has studied a language before but is learning it again.
 They may be indistinguishable from {{<g absolute-beginner "absolute beginners">}}{{<i "absolute beginner">}}
@@ -352,7 +352,7 @@ Finally,
 tell them that people who focus on trying to complete the task as quickly as possible
 are less fair in their sharing [@Lewi2015].
 
-::: {.callout-note title="Switching Partners"}
+::: {.note data-title="Switching Partners"}
 Teachers have mixed opinions on whether people should be required to change partners at regular intervals.
 On the one hand it gives everyone a chance to gain new insights and make new friends.
 On the other,
@@ -394,7 +394,7 @@ I have found that having learners take notes together in a shared online page is
 -   Glancing at recent notes while learners are working on an exercise
     helps the teacher discover that the class missed or misunderstood something.
 
-::: {.callout-note title="Is the Pen Mightier than the Keyboard?"}
+::: {.note data-title="Is the Pen Mightier than the Keyboard?"}
 [@Muel2014] reported that taking notes on a computer
 is generally less effective than taking notes using pen and paper.
 While their result was widely shared,
@@ -417,7 +417,7 @@ If you are only working with a particular group once,
 you should therefore heed the advice in @sec-classroom-innovate
 and have them take notes individually.
 
-::: {.callout-note title="Points for Improvement"}
+::: {.note data-title="Points for Improvement"}
 One way to demonstrate to learners that they are learning *with* you,
 not just *from* you,
 is to allow them to take notes by editing (a copy of) your lesson.
@@ -567,7 +567,7 @@ and to leave the class with those machines set up to do real work.
 Free-range teachers should therefore prepare to teach on both Windows and MacOS^["And Linux!" someone shouts from the back of the room.],
 even though it would be simpler to require learners to use just one.
 
-::: {.callout-note title="Common Denominators"}
+::: {.note data-title="Common Denominators"}
 If your participants are using different operating systems,
 try to avoid using features which are specific to just one
 and point out any that you *do* use.
@@ -590,7 +590,7 @@ and show the teachers the result,
 then get helpers and other learners
 to assist people who have run into trouble.
 
-::: {.callout-note title="Virtual Machines"}
+::: {.note data-title="Virtual Machines"}
 Some people use tools like [Docker](http://docker.com)
 to put virtual machines on learners' computers{{<i "virtual machines">}}
 so that everyone is working with exactly the same tools,
@@ -702,7 +702,7 @@ The ban on repeats forces people to say things they otherwise might not:
 once all the "safe" feedback has been given,
 participants will start saying what they really think.
 
-::: {.callout-note title="Different Modes, Different Answers"}
+::: {.note data-title="Different Modes, Different Answers"}
 Minute cards (@sec-classroom-sticky-notes) are anonymous;
 the alternating up-and-down feedback is not.
 You should use the two together

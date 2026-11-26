@@ -33,7 +33,7 @@ let learners practice the tools they need to use to solve a larger problem (comp
 let them tackle the parts of that problem in whatever order they want (autonomy),
 and allow them to talk to their peers (relatedness).
 
-::: {.callout-note title="The Problem of Grades"}
+::: {.note data-title="The Problem of Grades"}
 > I've never had an audience in my life. My audience is a rubric.
 > <br>
 > – quoted by Matt Tierney
@@ -63,7 +63,7 @@ Learners are far more likely to believe stories from people like themselves [@Mi
 and people who have been through your course
 will always have advice you would never have thought of.
 
-::: {.callout-note title="Not Just for Learners"}
+::: {.note data-title="Not Just for Learners"}
 Discussions of motivation in education often overlook the need to motivate the *teacher*.{{<i "motivation!of teachers">}}
 Learners respond to a teacher's enthusiasm,
 and teachers (particularly volunteers) need to care about a topic in order to keep teaching it.
@@ -105,7 +105,7 @@ We can use this idea in teaching
 by creating a grid whose axes are "mean time to master"
 and "usefulness once mastered" (@fig-motivation-what).
 
-![What to teach](figures/what-to-teach.svg){#fig-motivation-what}
+![What to teach](figures/what-to-teach.svg){#fig-motivation-what fig-alt="What to teach"}
 
 Things that are quick to master and immediately useful should be taught first,
 even if they aren't considered fundamental by people who are already competent practitioners,
@@ -115,7 +115,7 @@ things that are hard to learn and aren't useful to your learners at their curren
 should be skipped entirely,
 while topics along the diagonal need to be weighed against each other.
 
-::: {.callout-note title="Useful to Whom?"}
+::: {.note data-title="Useful to Whom?"}
 If someone wants to build websites,
 foundational computer science concepts like recursion and computability
 may inhabit the lower right corner of this grid.
@@ -258,7 +258,7 @@ All of these factors can and should be addressed in both in-person and online se
 using methods like those in @sec-motivation-inclusivity,
 and doing so improves outcomes for everyone [@Sved2016].
 
-::: {.callout-note title="Productive Failure and Privilege"}
+::: {.note data-title="Productive Failure and Privilege"}
 Some recent work has explored {{<g productive-failure "productive failure">}},
 where learners are deliberately given problems that can't be solved with the knowledge they have
 and have to go out and acquire new information in order to make progress [@Kapu2016].
@@ -385,7 +385,7 @@ but adding description captions to images
 and making navigation controls accessible to people who can't use a mouse
 can make a big difference.
 
-::: {.callout-note title="Curb Cuts"}
+::: {.note data-title="Curb Cuts"}
 Making material accessible helps everyone,
 not just people facing challenges.
 [Curb cuts](https://en.wikipedia.org/wiki/Curb\_cut)—the small sloped ramps joining a sidewalk to the street—were
@@ -481,7 +481,7 @@ and everyone else who doesn't fit Silicon Valley's affluent white/Asian male dem
 @fig-motivation-women-in-cs (from [NPR](https://www.npr.org/sections/money/2014/10/21/357629765/when-women-stopped-coding))
 graphically illustrates the effects of computing's exclusionary culture on women.
 
-![Female computer science majors in the US](figures/women-coding.png){#fig-motivation-women-in-cs}
+![Female computer science majors in the US](figures/women-coding.png){#fig-motivation-women-in-cs fig-alt="Female computer science majors in the US"}
 
 [@Lee2017] is a brief, practical guide to doing that with references to the research literature.
 The practices it describes help learners who belong to one or more marginalized or excluded groups,
@@ -531,7 +531,7 @@ If in doubt,
 ask your learners and members of the community what they think you ought to do.
 We return to this in @sec-community.
 
-::: {.callout-note title="Conduct as Accessibility"}
+::: {.note data-title="Conduct as Accessibility"}
 We said in @sec-classroom-coc that classes should enforce a Code of Conduct like the one in @sec-conduct.
 This is a form of accessibility:
 while closed captions make video accessible to people with hearing disabilities,
@@ -547,7 +547,7 @@ which is less than half the percentage seen in the mid-1980s
 And western countries are the odd ones for having such low percentage of women in computing:
 women are still often 30–40% of computer science students elsewhere [@Galp2002,@Varm2015].
 
-![Degrees awarded and female enrollment](figures/enrollment.png){#fig-motivation-gender}
+![Degrees awarded and female enrollment](figures/enrollment.png){#fig-motivation-gender fig-alt="Degrees awarded and female enrollment"}
 
 Since it's unlikely that women have changed drastically in the last 30 years,
 we have to look for structural causes to understand what's gone wrong and how to fix it.
@@ -569,7 +569,7 @@ Believing that puts the burden on people who already have to do extra work to ov
 and (not coincidentally) gives those who benefit from the current arrangements
 an excuse not to look at themselves too closely.
 
-::: {.callout-note title="Rewriting History"}
+::: {.note data-title="Rewriting History"}
 [@Abba2012] describes the careers and accomplishments of
 the women who shaped the early history of computing,
 but have all too often been written out of it;
@@ -720,4 +720,4 @@ at least none of *that* happened.
 
 ## Review {.unnumbered}
 
-![Concepts: Motivation](figures/conceptmap-motivation.svg){#fig-motivation-concepts}
+![Concepts: Motivation](figures/conceptmap-motivation.svg){#fig-motivation-concepts fig-alt="Concepts: Motivation"}

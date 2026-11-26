@@ -101,7 +101,7 @@ make a flash card for each fact that you couldn't remember
 or that you remembered incorrectly [@Matt2019].
 This will help you focus the next round of study on things that most need attention.
 
-::: {.callout-note title="The Value of Lectures"}
+::: {.note data-title="The Value of Lectures"}
 According to [@Mill2016a],
 "The lectures that predominate in face-to-face courses are relatively ineffective ways to teach,
 but they probably contribute to spacing material over time,
@@ -159,7 +159,7 @@ Sketching a concept map and then comparing it to your notes
 or to a previously-drawn concept map
 is a quick way to do this.
 
-::: {.callout-note title="Hypercorrection"}
+::: {.note data-title="Hypercorrection"}
 One powerful finding in learning research is
 the {{<g hypercorrection "hypercorrection effect">}} [@Metc2016].
 Most people don't like to be told they're wrong,
@@ -376,7 +376,7 @@ no matter how short the interruption was.
 This means that if you are interrupted half a dozen times per hour,
 you are *never* at your productive peak.
 
-::: {.callout-note title="How Did He Know?"}
+::: {.note data-title="How Did He Know?"}
 In his 1961 short story "[Harrison Bergeron](https://en.wikipedia.org/wiki/Harrison\_Bergeron),"
 Kurt Vonnegut described a future in which everyone is forced to be equal.
 Good-looking people have to wear masks,
@@ -565,4 +565,4 @@ Which ones do they still believe are true, and why?
 
 ## Review {.unnumbered}
 
-![Concepts: Active learning](figures/conceptmap-active-learning.svg){#fig-individual-concept-map}
+![Concepts: Active learning](figures/conceptmap-active-learning.svg){#fig-individual-concept-map fig-alt="Concepts: Active learning"}

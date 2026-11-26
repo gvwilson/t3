@@ -3,8 +3,8 @@
 These concept maps were created by Amy Hodge of Stanford University,
 and are re-used with permission.
 
-![Library patron concept map](figures/library-patron-concept-map.svg){#fig-conceptmaps-library-patron}
+![Library patron concept map](figures/library-patron-concept-map.svg){#fig-conceptmaps-library-patron fig-alt="Library patron concept map"}
 
-![Library director concept map](figures/library-director-concept-map.svg){#fig-conceptmaps-library-director}
+![Library director concept map](figures/library-director-concept-map.svg){#fig-conceptmaps-library-director fig-alt="Library director concept map"}
 
-![Library friends concept map](figures/library-friends-concept-map.svg){#fig-conceptmaps-library-friends}
+![Library friends concept map](figures/library-friends-concept-map.svg){#fig-conceptmaps-library-friends fig-alt="Library friends concept map"}

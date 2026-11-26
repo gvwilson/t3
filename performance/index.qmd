@@ -100,7 +100,7 @@ or where you took the wrong path,
 and explain how you've corrected yourself,
 you will give your learners a toolbox they can use when they make their own mistakes.
 
-::: {.callout-note title="Deliberate Fumbles"}
+::: {.note data-title="Deliberate Fumbles"}
 Once you have given a lesson several times,
 you're unlikely to make anything other than basic typing mistakes
 (which can still be informative).
@@ -238,7 +238,7 @@ You can avoid this problem by using a separate window for editing;
 if you do this,
 always tell learners when you are switching focus from one to the other.
 
-::: {.callout-note title="Accessibility Aids Help Everyone"}
+::: {.note data-title="Accessibility Aids Help Everyone"}
 Tools like [Mouseposé](https://boinx.com/mousepose/overview/) (for Mac)
 and [PointerFocus](http://www.pointerfocus.com/) (for Windows)
 highlight the position of your mouse cursor on the screen,
@@ -300,7 +300,7 @@ run through it beforehand
 installing several hundred megabytes of software over high school WiFi
 in front of bored 16-year-olds isn't something you ever want to have to do.
 
-::: {.callout-note title="Direct Instruction"}
+::: {.note data-title="Direct Instruction"}
 {{<g direct-instruction "Direct Instruction">}} (DI) is a teaching method
 centered around meticulous curriculum design delivered through a prescribed script.
 It's more like an actor reciting lines than it is like the improvisational approach we recommend.
@@ -429,7 +429,7 @@ and giving them feedback helps them,
 but it can be hard to receive feedback,
 especially when it's negative (@fig-performance-feedback-feelings).
 
-![Feedback feelings (copyright © Deathbulge 2013)](figures/deathbulge-jerk.jpg){#fig-performance-feedback-feelings}
+![Feedback feelings (copyright © Deathbulge 2013)](figures/deathbulge-jerk.jpg){#fig-performance-feedback-feelings fig-alt="Feedback feelings"}
 
 Feedback is easier to give and receive when both parties share expectations
 about what is and isn't in scope
@@ -472,9 +472,9 @@ Observers write their comments on sticky notes as they watch the demonstration,
 then post those in the quadrants of a grid drawn on a whiteboard
 (@fig-performance-rubric).
 
-![Teaching rubric](figures/2x2-rubric.svg){#fig-performance-rubric}
+![Teaching rubric](figures/2x2-rubric.svg){#fig-performance-rubric fig-alt="Teaching rubric"}
 
-::: {.callout-note title="Rubrics and Question Budgets"}
+::: {.note data-title="Rubrics and Question Budgets"}
 @sec-checklists-teacheval contains a sample rubric
 for assessing 5–10 minutes of programming instruction.
 It presents items in more or less the order that they're likely to come up,
@@ -493,7 +493,7 @@ If you are interested in giving and getting feedback,
 that you can use to make peer-to-peer feedback a routine part of your teaching,
 while [@Gawa2011] looks at the value of having a coach.
 
-::: {.callout-note title="Studio Classes"}
+::: {.note data-title="Studio Classes"}
 Architecture schools often include studio classes{{<i "studio class">}}
 in which students solve small design problems
 and get feedback from their peers right then and there.
@@ -576,7 +576,7 @@ Most people are more comfortable the second time around,
 and being assessed on the things that they themselves have decided are important
 increases their sense of self-determination (@sec-motivation).
 
-::: {.callout-note title="Tells"}
+::: {.note data-title="Tells"}
 We all have nervous habits:
 we talk more rapidly and in a higher-pitched voice than usual when we're on stage,
 play with our hair,
@@ -667,4 +667,4 @@ Are there any tips you strongly disagree with or think would be ineffective?
 
 ## Review {.unnumbered}
 
-![Concepts: Feedback](figures/conceptmap-feedback.svg){#fig-performance-feedback}
+![Concepts: Feedback](figures/conceptmap-feedback.svg){#fig-performance-feedback fig-alt="Concepts: Feedback"}

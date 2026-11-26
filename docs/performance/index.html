@@ -57,11 +57,8 @@
 <p>The typos are the pedagogy. <br> — Emily Jane McTavishMcTavish, Emily Jane</p>
 </blockquote>
 <p>The most important rule of live coding is to embrace your mistakes.mistakes (importance of embracing) No matter how well you prepare, you will make some; when you do, think through them with your audience. While data is hard to come by, professional programmers spend anywhere from 25% to 60% of their time debugging; novices spend much more (<a href="../pck/index.html#sec-pck-debug" class="quarto-xref"><span>Section 8.6</span></a>), but most textbooks and tutorials spend little time diagnosing and correcting problems. If you talk aloud while you figure out what you mistyped or where you took the wrong path, and explain how you’ve corrected yourself, you will give your learners a toolbox they can use when they make their own mistakes.</p>
-<div>
-<blockquote>
-<p><strong>Deliberate Fumbles</strong></p>
+<div class="note" data-title="Deliberate Fumbles">
 <p>Once you have given a lesson several times, you’re unlikely to make anything other than basic typing mistakes (which can still be informative). You can try to remember past mistakes and make them deliberately, but that often feels forced. An alternative approach is <a href="../glossary/index.html#twitch-coding">twitch coding</a>: ask learners one by one to tell you what to type next. This is pretty much guaranteed to get you into some kind of trouble.</p>
-</blockquote>
 </div>
 <h3 class="unnumbered" id="ask-for-predictions">Ask For Predictions</h3>
 <p>One way to keep learners engaged while you are live coding is to ask them to make predictions about what the code on the screen is going to do. You can then write down the first few suggestions they make, have the whole class vote on which they think is most likely, and then run the code. This is a lightweight form of peer instruction,peer instruction which we will discuss in <a href="../classroom/index.html#sec-classroom-peer" class="quarto-xref"><span>Section 10.2</span></a>; as well as keeping their attention on task, it gives them practice at reasoning about code’s behavior.</p>
@@ -82,11 +79,8 @@
 <p>When the bottom of the projection screen is at the same height as your learners’ heads, people in the back won’t be able to see the lower parts. You can raise the bottom of your window to compensate, but this will give you even less space for typing.</p>
 <p>If you can get a second projector and screen, use it: the extra real estate will allow you to display your code on one side and its output or behavior on the other. If second screen requires its own computer, ask a helper to control it rather than hopping back and forth between two keyboards.</p>
 <p>Finally, if you are teaching something like the Unix shell in a console window, it’s important to tell people when you run an in-console text editor and when you return to the console prompt. Most novices have never seen a window take on multiple personalities in this way, and can quickly become confused by when you are interacting with the shell, when you are typing in the editor, and when you are dealing with an interactive prompt for Python or some other language. You can avoid this problem by using a separate window for editing; if you do this, always tell learners when you are switching focus from one to the other.</p>
-<div>
-<blockquote>
-<p><strong>Accessibility Aids Help Everyone</strong></p>
+<div class="note" data-title="Accessibility Aids Help Everyone">
 <p>Tools like <a href="https://boinx.com/mousepose/overview/">Mouseposé</a> (for Mac) and <a href="http://www.pointerfocus.com/">PointerFocus</a> (for Windows) highlight the position of your mouse cursor on the screen, and screen recording tools like <a href="https://www.techsmith.com/video-editor.html">Camtasia</a> and standalone applications like <a href="https://github.com/keycastr/keycastr">KeyCastr</a> echo invisible keys like tab and Control-J as you type them. These can be a bit annoying when you first start to use them, but help your learners figure out what you’re doing.</p>
-</blockquote>
 </div>
 <h3 class="unnumbered" id="double-devices">Double Devices</h3>
 <p>Some people now use two devices when teaching: a laptop plugged into the projector for learners to see and a tablet so that they can view their own notes and the notes that the learners are taking (<a href="../classroom/index.html#sec-classroom-notetaking" class="quarto-xref"><span>Section 10.7</span></a>). This is more reliable than flipping back and forth between virtual desktops, though a printout of the lesson is still the most reliable backup technology.</p>
@@ -98,11 +92,8 @@
 <p>Stick fairly closely to the lesson plan you’ve drawn up or borrowed the first time you teach a lesson. It may be tempting to deviate from the material because you would like to show a neat trick or demonstrate another way to do something, but there is a fair chance you’ll run into something unexpected that will cost you more time than you have.</p>
 <p>Once you are more familiar with the material, though, you can and should start improvising based on the backgrounds of your learners, their questions in class, and what you personally find most interesting. This is like playing a new song: you stick to the sheet music the first few times, but after you’re comfortable with the melody and chord changes, you can start to put your own stamp on it.</p>
 <p>When you want to use something new, run through it beforehand <em>using the same computer that you’ll be teaching on</em>: installing several hundred megabytes of software over high school WiFi in front of bored 16-year-olds isn’t something you ever want to have to do.</p>
-<div>
-<blockquote>
-<p><strong>Direct Instruction</strong></p>
+<div class="note" data-title="Direct Instruction">
 <p><a href="../glossary/index.html#direct-instruction">Direct Instruction</a> (DI) is a teaching method centered around meticulous curriculum design delivered through a prescribed script. It’s more like an actor reciting lines than it is like the improvisational approach we recommend. <span class="citation" data-cites="Stoc2018">(<a href="../bibliography/index.html#ref-Stoc2018" role="doc-biblioref">Stockard et al. 2018</a>)</span> found a statistically significant positive effect for DI even though it sometimes gets knocked for being mechanical. I prefer improvisation because DI requires more up-front preparation than most free-range learning groups can afford.</p>
-</blockquote>
 </div>
 <h3 class="unnumbered" id="face-the-screenoccasionally">Face the Screen—Occasionally</h3>
 <p>It’s OK to face the projection screen occasionally when you are walking through a section of code or drawing a diagram: <em>not</em> looking at a roomful of people who are all looking at you can help lower your anxiety levels and give you a moment to think about what to say next.</p>
@@ -124,10 +115,10 @@
 <p><em>Jugyokenkyu</em> works because it maximizes the opportunity for unplanned knowledge transfer between teachers: someone sets out to demonstrate X, but while watching them, their audience actually learns Y as well (or instead). For example, a teacher might intend to show learners how to search for email addresses in a text file, but what their audience might take away is some new keyboard shortcuts.</p>
 <h2 data-number="9.3" id="sec-performance-feedback"><span class="header-section-number">9.3</span> Giving and Getting Feedback on Teaching</h2>
 <p>Observing someone helps you, and giving them feedback helps them, but it can be hard to receive feedback, especially when it’s negative (<a href="#fig-performance-feedback-feelings" class="quarto-xref">Figure&nbsp;<span>9.1</span></a>).</p>
-<div id="fig-performance-feedback-feelings" class="quarto-float quarto-figure quarto-figure-center">
+<div id="fig-performance-feedback-feelings" class="quarto-float quarto-figure quarto-figure-center" alt="Feedback feelings">
 <figure class="quarto-float quarto-float-fig">
 <div aria-describedby="fig-performance-feedback-feelings-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figures/deathbulge-jerk.jpg">
+<img src="figures/deathbulge-jerk.jpg" alt="Feedback feelings">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-performance-feedback-feelings-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;9.1: Feedback feelings (copyright © Deathbulge 2013)
@@ -169,29 +160,23 @@ You won’t remember everything you noticed if the presentation lasts longer tha
 </dd>
 </dl>
 <p>Taking notes is more efficient when you have some kind of rubric so that you’re not scrambling to write your observations while the person you’re observing is still talking. The simplest rubric for free-form comments from a group is a 2x2 grid whose vertical axis is labeled “what went well” and “what can be improved”, and whose horizontal axis is labeled “content” (what was said) and “presentation” (how it was said). Observers write their comments on sticky notes as they watch the demonstration, then post those in the quadrants of a grid drawn on a whiteboard (<a href="#fig-performance-rubric" class="quarto-xref">Figure&nbsp;<span>9.2</span></a>).</p>
-<div id="fig-performance-rubric" class="quarto-float quarto-figure quarto-figure-center">
+<div id="fig-performance-rubric" class="quarto-float quarto-figure quarto-figure-center" alt="Teaching rubric">
 <figure class="quarto-float quarto-float-fig">
 <div aria-describedby="fig-performance-rubric-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figures/2x2-rubric.svg">
+<img src="figures/2x2-rubric.svg" alt="Teaching rubric">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-performance-rubric-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;9.2: Teaching rubric
 </figcaption>
 </figure>
 </div>
-<div>
-<blockquote>
-<p><strong>Rubrics and Question Budgets</strong></p>
+<div class="note" data-title="Rubrics and Question Budgets">
 <p><a href="../checklists/index.html#sec-checklists-teacheval" class="quarto-xref"><span>Section F.1</span></a> contains a sample rubric for assessing 5–10 minutes of programming instruction. It presents items in more or less the order that they’re likely to come up, e.g.&nbsp;questions about the introduction come before questions about the conclusion.</p>
 <p>Rubrics like this one tend to grow over time as people think of things they’d like to add. A good way to keep them manageable is to insist that the total length stays constant: if someone wants to add a question, they have to identify one that’s less important and can be removed.</p>
-</blockquote>
 </div>
 <p>If you are interested in giving and getting feedback, <span class="citation" data-cites="Gorm2014">(<a href="../bibliography/index.html#ref-Gorm2014" role="doc-biblioref">Gormally et al. 2014</a>)</span> has good advice that you can use to make peer-to-peer feedback a routine part of your teaching, while <span class="citation" data-cites="Gawa2011">(<a href="../bibliography/index.html#ref-Gawa2011" role="doc-biblioref">Gawande 2011</a>)</span> looks at the value of having a coach.</p>
-<div>
-<blockquote>
-<p><strong>Studio Classes</strong></p>
+<div class="note" data-title="Studio Classes">
 <p>Architecture schools often include studio classesstudio class in which students solve small design problems and get feedback from their peers right then and there. These classes are most effective when the teacher critiques the peer critiques so that participants learn not only how to make buildings but how to give and get feedback <span class="citation" data-cites="Scho1984">(<a href="../bibliography/index.html#ref-Scho1984" role="doc-biblioref">Schön 1984</a>)</span>. Master classes in music serve a similar purpose, and I have found that giving feedback on feedback helps people improve their teaching as well.</p>
-</blockquote>
 </div>
 <h2 data-number="9.4" id="sec-performance-practice"><span class="header-section-number">9.4</span> How to Practice Performance</h2>
 <p>The best way to improve your in-person lesson delivery is to watch yourself do it:</p>
@@ -211,12 +196,9 @@ Figure&nbsp;9.2: Teaching rubric
 </ul>
 <p>The announcement of this exercise is often greeted with groans and apprehension, since few people enjoy seeing or hearing themselves. However, those same people consistently rate it as one of the most valuable parts of teaching workshops. It’s also good preparation for co-teaching (<a href="../classroom/index.html#sec-classroom-together" class="quarto-xref"><span>Section 10.3</span></a>):co-teaching teachers find it a lot easier to give each other informal feedback if they have had some practice doing so and have a shared rubric to set expectations.</p>
 <p>And speaking of rubrics: once the class has put all of their feedback on a shared grid, pick a handful of positive and negative comments, write them up as a checklist, and have them do the exercise again. Most people are more comfortable the second time around, and being assessed on the things that they themselves have decided are important increases their sense of self-determination (<a href="../motivation/index.html" class="quarto-xref"><span>Chapter 11</span></a>).</p>
-<div>
-<blockquote>
-<p><strong>Tells</strong></p>
+<div class="note" data-title="Tells">
 <p>We all have nervous habits: we talk more rapidly and in a higher-pitched voice than usual when we’re on stage, play with our hair, or crack our knuckles. Gamblers call these “tells,” and people often don’t realize that they pace, look at their shoes, or rattle the change in their pocket when they don’t actually know the answer to a question.</p>
 <p>You can’t get rid of tells completely, and trying to do so can make you obsess about them. A better strategy is to try to displace them—for example, to train yourself to scrunch your toes inside your shoes when you’re nervous instead of cleaning your ear with your pinky finger.</p>
-</blockquote>
 </div>
 <h2 data-number="9.5" id="sec-performance-exercises"><span class="header-section-number">9.5</span> Exercises</h2>
 <h3 class="exercise" data-number="9.5.1" id="give-feedback-on-bad-teaching-whole-class20-min"><span class="header-section-number">9.5.1</span> Give Feedback on Bad Teaching (whole class/20 min)</h3>
@@ -243,10 +225,10 @@ Figure&nbsp;9.2: Teaching rubric
 <h3 class="exercise" data-number="9.5.6" id="teaching-tips-small-groups15-min"><span class="header-section-number">9.5.6</span> Teaching Tips (small groups/15 min)</h3>
 <p>The <a href="http://csteachingtips.org/">CS Teaching Tips</a> site has a large number of practical tips on teaching computing, as well as a collection of downloadable tip sheets. Go through their tip sheets in small groups and classify each tip according to whether you use it all the time, use it occasionally, or never use it. Where do your practice and your peers’ practice differ? Are there any tips you strongly disagree with or think would be ineffective?</p>
 <h2 class="unnumbered" id="review">Review</h2>
-<div id="fig-performance-feedback" class="quarto-float quarto-figure quarto-figure-center">
+<div id="fig-performance-feedback" class="quarto-float quarto-figure quarto-figure-center" alt="Concepts: Feedback">
 <figure class="quarto-float quarto-float-fig">
 <div aria-describedby="fig-performance-feedback-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figures/conceptmap-feedback.svg">
+<img src="figures/conceptmap-feedback.svg" alt="Concepts: Feedback">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-performance-feedback-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;9.3: Concepts: Feedback

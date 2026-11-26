@@ -10,7 +10,7 @@ What happens outside the classroom is as important to their success
 as it is to their learners',
 so the best way to help both is to foster a teaching community.
 
-::: {.callout-note title="Finland and Why Not"}
+::: {.note data-title="Finland and Why Not"}
 Finland's schools are among the most successful in the world,
 but as Anu Partanen{{<i "Partanen, Anu">}}
 [pointed out](https://www.theatlantic.com/national/archive/2011/12/what-americans-keep-ignoring-about-finlands-school-success/250564/),
@@ -97,7 +97,7 @@ a support group for people dealing with depression (community of concern)
 can decide to raise funds to keep a help line going (community of action).
 Running the help line can then become the group's focus (community of interest).
 
-::: {.callout-note title="Soup, Then Hymns"}
+::: {.note data-title="Soup, Then Hymns"}
 Manifestos are fun to write,
 but most people join a volunteer community to help and be helped
 rather than to argue over the wording of a vision statement^[People who prefer the latter are often *only* interested in arguing…].
@@ -167,7 +167,7 @@ People who come to you this way will know what you do
 and have recent experience of being on the receiving end of what you offer,
 which helps your organization avoid collective expert blind spot (@sec-memory).
 
-::: {.callout-note title="Start Small"}
+::: {.note data-title="Start Small"}
 [Ben Franklin](https://en.wikipedia.org/wiki/Ben\_Franklin\_effect) observed that
 a person who has performed a favor for someone
 is more likely to do them another favor
@@ -209,7 +209,7 @@ Follow up 2–3 months after they leave
 Thank them,
 :   both when they leave and the next time your group gets together.
 
-::: {.callout-note title="A Missing Manual"}
+::: {.note data-title="A Missing Manual"}
 Thousands of books have been written on how to start a company.
 Only a handful describe how to end one or leave one gracefully,
 even though there is an ending for every beginning.
@@ -362,7 +362,7 @@ it's important to prioritize competence over passion
 (the latter being more important for the rank and file)
 and to try to recruit for particular skills such as accounting, marketing, and so on.
 
-::: {.callout-note title="Choose Democracy"}
+::: {.note data-title="Choose Democracy"}
 When the time comes,
 make your organization a democracy:
 sooner or later (usually sooner),
@@ -379,7 +379,7 @@ so learn to say no more often than you say yes.
 If you don't take care of yourself,
 you won't be able to take care of your community.
 
-::: {.callout-note title="Running Out of 'No'"}
+::: {.note data-title="Running Out of 'No'"}
 Research in the 1990s seemed to show that our ability to exert willpower is finite:
 if we have to resist eating the last donut in the box when we're hungry,
 we are less likely to fold laundry and vice versa.

@@ -9,7 +9,7 @@ and how we can leverage that to design and deliver lessons more effectively.
 
 ## What's Going On In There? {#sec-architecture-brain}
 
-![Cognitive architecture](figures/cognitive-architecture.svg){#fig-arch-model}
+![Cognitive architecture](figures/cognitive-architecture.svg){#fig-arch-model fig-alt="Cognitive architecture"}
 
 @fig-arch-model is a simplified model of human cognitive architecture.{{<i "cognitive architecture">}}
 The core of this model is
@@ -58,7 +58,7 @@ and people with hearing impairments or other special needs,
 both of whom may find that the value of the redundant information
 outweighs the extra processing effort.
 
-::: {.callout-note title="Piece by Piece"}
+::: {.note data-title="Piece by Piece"}
 The split attention effect explains why
 it's more effective to draw a diagram piece by piece while teaching
 than to present the whole thing at once.
@@ -77,7 +77,7 @@ while they are first mastering unit skills;
 instead,
 using multiple sources of information simultaneously should be treated as a separate learning task.
 
-::: {.callout-note title="Not All Graphics are Created Equal"}
+::: {.note data-title="Not All Graphics are Created Equal"}
 [@Sung2012] presents an elegant study that distinguishes *seductive* graphics{{<i "graphics!seductive">}}
 (which are highly interesting but not directly relevant to the instructional goal),
 *decorative* graphics{{<i "graphics!decorative">}}
@@ -163,7 +163,7 @@ because they will involuntarily (and possibly unconsciously) expend some effort
 trying to figure out if the differences are meaningful
 (@fig-architecture-frisian).
 
-![Constructing a sentence](figures/frisian.png){#fig-architecture-frisian}
+![Constructing a sentence](figures/frisian.png){#fig-architecture-frisian fig-alt="Constructing a sentence"}
 
 The coding equivalent of this
 is called a {{<g parsons-problem "Parsons Problem">}}^[Named after one of its creators.] [@Pars2006].
@@ -288,7 +288,7 @@ the programming problems above all use the accumulator design pattern,
 in which the results of processing items from a collection
 are repeatedly added to a single variable in some way to create the final result.
 
-::: {.callout-note title="Cognitive Apprenticeship"}
+::: {.note data-title="Cognitive Apprenticeship"}
 An alternative model of learning and instruction that also uses scaffolding and fading
 is {{<g cognitive-apprenticeship "cognitive apprenticeship">}},
 which emphasizes the way in which a master passes on skills and insights to an apprentice.
@@ -517,4 +517,4 @@ and rate its graphics as "poor," "average," or "good" according to these six cri
 
 ## Review {.unnumbered}
 
-![Concepts: Cognitive load](figures/conceptmap-cognitive-load.svg){#fig-architecture-cognitive-load}
+![Concepts: Cognitive load](figures/conceptmap-cognitive-load.svg){#fig-architecture-cognitive-load fig-alt="Concepts: Cognitive load"}
