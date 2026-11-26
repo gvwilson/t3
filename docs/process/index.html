@@ -296,6 +296,14 @@ Willingham, Daniel T. 2010. <em>Why Don’t Students Like School?: A Cognitive S
     <a class="pager-link next" href="../pck/index.html">Pedagogical Content Knowledge →</a>
   </nav>
 </footer>
+<script>
+document.addEventListener('click', function (e) {
+  var link = e.target.closest && e.target.closest('a');
+  document.querySelectorAll('details.topnav-dropdown[open]').forEach(function (d) {
+    if (!d.contains(e.target) || (link && d.contains(link))) d.removeAttribute('open');
+  });
+});
+</script>
 
 
 </body></html>

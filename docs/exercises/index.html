@@ -312,6 +312,14 @@ Stegeman, Martijn, Erik Barendsen, and Sjaak Smetsers. 2016. <em>Rubric for Feed
     <a class="pager-link next" href="../community/index.html">Building a Community of Practice →</a>
   </nav>
 </footer>
+<script>
+document.addEventListener('click', function (e) {
+  var link = e.target.closest && e.target.closest('a');
+  document.querySelectorAll('details.topnav-dropdown[open]').forEach(function (d) {
+    if (!d.contains(e.target) || (link && d.contains(link))) d.removeAttribute('open');
+  });
+});
+</script>
 
 
 </body></html>

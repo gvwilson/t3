@@ -483,6 +483,14 @@ Wlodkowski, Raymond J., and Margery B. Ginsberg. 2017. <em>Enhancing Adult Motiv
     <a class="pager-link next" href="../online/index.html">Teaching Online →</a>
   </nav>
 </footer>
+<script>
+document.addEventListener('click', function (e) {
+  var link = e.target.closest && e.target.closest('a');
+  document.querySelectorAll('details.topnav-dropdown[open]').forEach(function (d) {
+    if (!d.contains(e.target) || (link && d.contains(link))) d.removeAttribute('open');
+  });
+});
+</script>
 
 
 </body></html>

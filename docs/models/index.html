@@ -305,6 +305,14 @@ Wilson, Karen, and James H. Korn. 2007. <span>“Attention During Lectures: Beyo
     <a class="pager-link next" href="../memory/index.html">Expertise and Memory →</a>
   </nav>
 </footer>
+<script>
+document.addEventListener('click', function (e) {
+  var link = e.target.closest && e.target.closest('a');
+  document.querySelectorAll('details.topnav-dropdown[open]').forEach(function (d) {
+    if (!d.contains(e.target) || (link && d.contains(link))) d.removeAttribute('open');
+  });
+});
+</script>
 
 
 </body></html>

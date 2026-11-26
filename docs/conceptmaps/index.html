@@ -64,6 +64,14 @@ Figure&nbsp;G.3: Library friends concept map
     <a class="pager-link next" href="../chunking/index.html">Chunking Exercise Solution →</a>
   </nav>
 </footer>
+<script>
+document.addEventListener('click', function (e) {
+  var link = e.target.closest && e.target.closest('a');
+  document.querySelectorAll('details.topnav-dropdown[open]').forEach(function (d) {
+    if (!d.contains(e.target) || (link && d.contains(link))) d.removeAttribute('open');
+  });
+});
+</script>
 
 
 </body></html>

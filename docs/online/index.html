@@ -351,6 +351,14 @@ Watters, Audrey. 2014. <em>The Monsters of Education Technology</em>. CreateSpac
     <a class="pager-link next" href="../exercises/index.html">Exercise Types →</a>
   </nav>
 </footer>
+<script>
+document.addEventListener('click', function (e) {
+  var link = e.target.closest && e.target.closest('a');
+  document.querySelectorAll('details.topnav-dropdown[open]').forEach(function (d) {
+    if (!d.contains(e.target) || (link && d.contains(link))) d.removeAttribute('open');
+  });
+});
+</script>
 
 
 </body></html>
